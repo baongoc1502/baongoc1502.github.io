@@ -1,0 +1,355 @@
+﻿h5 {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+}
+
+h1 {
+    margin: 0px 0px 0px 20px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+}
+
+
+body {
+    min-width: 980px;
+    width: 100%;
+}
+
+.btnhead {
+    border-radius: 20px;
+    height: 90%;
+    margin: 5px;
+    width:150px;
+    font-size: 20px;
+    background: #2A6049;
+    color: white;
+    float: right;
+    border: solid 3px #000000;
+}
+.btnhead:hover {
+    background-color: yellowgreen;
+}
+
+/*.btn:hover {
+    background-color: yellowgreen;
+}*/
+
+header {
+    background: #FBF9F1
+}
+
+.input-field {
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+}
+
+.search-box {
+    list-style-type: none;
+    text-align: center;
+    border-radius: 20px;
+    background-color: white;
+    margin: 0 auto;
+    width: 30%;
+    border: solid 3px #2A6049;
+}
+
+.icon {
+    padding: 10px;
+    color: white;
+    font-size: x-large;
+}
+
+
+
+#Container {
+    position: relative;
+    left: auto;
+    right: auto;
+    text-indent: 0px;
+}
+
+    #Container ul {
+        list-style-type: none;
+        text-align: center
+    }
+
+        #Container ul li {
+            background: #FBF9F1;
+            display: inline-table;
+            margin: 20px 10px;
+            font-size: x-large;
+        }
+
+            #Container ul li a {
+                display: block;
+                color: black;
+                font-weight: bold;
+                text-decoration: none;
+                padding: .3em 6px;
+            }
+
+    #Container li a:hover {
+        color: white;
+        background: #2A6049;
+    }
+
+    #Container li ul {
+        position: absolute;
+        display: none;
+        margin: 0;
+        padding: 0;
+        width: 10em
+    }
+
+    #Container li:hover ul {
+        display: block;
+    }
+
+    #Container ul li ul li {
+        width: 100%;
+        border: 1px solid green;
+        margin: 0;
+    }
+
+footer {
+    background-color: #2A6049;
+    color: white;
+}
+
+    footer table td {
+        padding: 30px;
+    }
+
+    footer b {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    footer a {
+        color: white;
+    }
+
+        footer a:hover {
+            color: antiquewhite
+        }
+
+img {
+    padding: 5px;
+}
+
+.banner {
+    background-color: #2A6049;
+    color: white;
+}
+
+
+
+
+h3 a {
+    color: black;
+}
+
+.product-img {
+    width: 200px;
+    height: 200px;
+    margin: 5px auto;
+    text-align: center;
+}
+
+.first-image {
+    width: 180px;
+    height: 180px;
+    text-align: center;
+}
+
+.pro-price {
+    color: darkred;
+    font-weight: bold;
+    position: absolute;
+    bottom: 90px;
+    left: 10px;
+    right: 10px
+}
+
+h2 {
+    color: #2A6049;
+    text-align: center;
+    font-weight: bold;
+}
+
+.add-cart {
+    position: relative;
+    left:auto;
+    right:auto;
+    float:left;
+}
+.number-bar{
+    position:absolute;
+    bottom:65px;
+    width:60%;
+    margin-left:20%;
+    margin-right:20%;
+}
+.cong{
+    width:30px;
+    height:30px;
+}
+.tru {
+    width: 30px;
+    height: 30px;
+}
+.number{
+    width:100px;
+    height:30px;
+    text-align:center
+}
+.addcart {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    right: 10px
+}
+
+.button {
+    border-radius: 20px;
+    width: 80%;
+    height: 90%;
+    margin: 5px;
+    font-size: 20px;
+    background: #2A6049;
+    color: white;
+    border: solid 3px #000000;
+}
+
+    .button:hover {
+        background-color: yellowgreen;
+    }
+
+.pro-name {
+    color: black;
+    margin: 5px;
+}
+
+    .pro-name:hover {
+        color: darkred;
+        font-style: oblique;
+        text-decoration: none;
+    }
+
+
+.product-block {
+    width: 23%;
+    height: 380px;
+    position: relative;
+    left: auto;
+    right: auto;
+    border: 1px solid #dfdfdf;
+    float: left;
+    margin: 1%;
+    text-align: center;
+}
+
+.product-block {
+    margin-bottom: 20px;
+    padding-bottom: 0px;
+}
+
+    .product-block .product-img {
+        overflow: hidden;
+        position: relative;
+        overflow: hidden;
+        text-align: center;
+        padding: 2px;
+    }
+
+        .product-block .product-img .frame {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            left: 0;
+            text-align: center;
+            z-index: 9;
+        }
+
+        .product-block .product-img img {
+            max-width: 100%;
+            margin: 0 auto;
+            transition: All 1s ease;
+            -webkit-transition: All 1s ease;
+            -moz-transition: All 1s ease;
+            -o-transition: All 1s ease;
+            transform: scale(1.1);
+            -webkit-transform: scale(1.1);
+            -moz-transform: scale(1.1);
+            -o-transform: scale(1.1);
+            -ms-transform: scale(1.1);
+        }
+
+    .product-block:hover {
+        border-color: #663320;
+    }
+
+        .product-block:hover .product-img img {
+            transform: scale(1.2);
+            -webkit-transform: scale(1.2);
+            -moz-transform: scale(1.2);
+            -o-transform: scale(1.2);
+            -ms-transform: scale(1.2);
+        }
+.move {
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 3%;
+    height: 100%;
+    position: relative;
+    left: auto;
+    right: auto;
+    float: left;
+    margin: 0.5%;
+}
+.move-start {
+    margin-left: 42.5%;
+    margin-bottom: 0.5%;
+    margin-top: 0.5%;
+    margin-right: 0.5%;
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 3%;
+    height: 100%;
+    position: relative;
+    left: auto;
+    right: auto;
+    float: left;
+}
+.change:hover{
+    background-color:rgba(42, 96, 73, 0.18)
+}
+.color{
+    background-color:#2A6049;
+    color:white
+}
+.page-color {
+    color: #2A6049
+}
+
+.page-color:hover{
+    color:#2A6049;
+    text-decoration:none;
+
+}
+
+    .page{
+        text-align:center;
+        font-size:120%;           
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+

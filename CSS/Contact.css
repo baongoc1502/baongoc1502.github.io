@@ -1,0 +1,40 @@
+﻿.btn-sendMess {
+    border-radius: 20px;
+    height: 90%;
+    width: 100px;
+    font-weight: bold;
+    font-size: 20px;
+    border: solid 3px #2A6049;
+}
+
+    .btn-sendMess:hover {
+        background-color: yellowgreen;
+    }
+
+.formColor {
+    background: rgb(252, 246, 246);
+}
+
+.bgColor {
+    background: #479E79;
+    color: white;
+}
+
+input[type="text"]:disabled {
+    background: #f7ffe9;
+}
+
+.inputRow {
+    font-size: xx-large;
+    padding: 5px;
+    margin: 0px 10px;
+}
+
+.contact {
+    margin: 14px;
+}
+
+.inputField {
+    padding: 15px;
+    font-size: x-large;
+}
