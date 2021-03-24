@@ -1,10 +1,26 @@
-﻿.btn:hover {
+﻿* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+}
+
+
+body {
+    min-width: 980px;
+    width: 100%;
+}
+
+.btn:hover {
     background-color: yellowgreen;
 }
 
 header {
     z-index: 1;
     background: #FBF9F1;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
 }
 
 .input-field {
@@ -36,7 +52,6 @@ header {
     font-size: 20px;
     background: #2A6049;
     color: white;
-    float: right;
     border: solid 3px #000000;
 }
 
@@ -56,7 +71,7 @@ header {
         #Container ul li {
             background: #FBF9F1;
             display: inline-table;
-            margin: 20px 10px;
+            margin: 0px 10px;
             font-size: x-large;
         }
 
@@ -91,27 +106,95 @@ header {
         margin: 0;
     }
 
+footer {
+    background-color: #2A6049;
+    color: white;
+    margin-top:20px
+}
+
+    footer table td {
+        padding: 20px;
+    }
+
+    footer b {
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    footer a {
+        color: white;
+    }
+
+        footer a:hover {
+            color: antiquewhite
+        }
+
+
+
+.banner {
+    background-color: #2A6049;
+    color: white;
+}
+
+.img-logo2{
+    height:200px;
+    width:180px;
+}
+
+
+h3 a {
+    color: black;
+}
+
+
+
+h1 {
+    color: #2A6049;
+    text-align: center;
+    font-weight: bold;
+    margin: 10px;
+}
+
+logo {
+    font-size: x-large;
+    color: #2A6049;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+strong {
+    font-weight: bold;
+    color: #019009;
+    font-size: 24px;
+}
+
+p {
+    font-size: 18px;
+}
+
 table {
     margin-left: auto;
     margin-right: auto;
-    width: 60%;
+    width:60%;
 }
 
+img{
+    width:100%;
+}
 
+.img-logo{
+    width:75px;
+    height:85px;
+}
 
 .td {
     width: 260px;
-}
-
-img {
-    width: 100%;
 }
 
 h2 {
     align-content: center;
     text-align: center;
     color: #000000;
-    font-family: 'Times New Roman';
+    
 }
 
 h5{

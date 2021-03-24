@@ -1,262 +1,366 @@
 [
   {
-    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/d0/c0/7a/a9f077ccce9550c50f877d530e09aeb8.jpg",
-    "TenSP": "Combo Ba Chỉ Bò Úc Nướng - 500g",
-    "GiaSP": "174.000 ₫"
+    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/dc/7f/eb/96b885b66a0323a120988090fd58be3a.jpg",
+    "TenSP": "Canh Chua Tôm Rau Nhút",
+    "GiaSP": 72800,
+    "PhanLoai": "ThucPhamKhac",
+    "ID": 700
   },
   {
-    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/18/67/f2/8180335974c380abdce21530c9a54f4e.jpg",
-    "TenSP": "Canh Cua Rau Đay",
-    "GiaSP": "49.000 ₫"
+    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/a1/aa/b9/2b719c69266d61c8aee24eb5f71df8fc.jpg",
+    "TenSP": "Bò Xào Nấm Kim Châm Ngô Bao Tử",
+    "GiaSP": 109900,
+    "PhanLoai": "ThucPhamKhac",
+    "ID": 701
   },
   {
-    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/b7/67/63/a0651a6f2203e5a25441d49aaea2018a.jpg",
-    "TenSP": "Tai Heo Ngâm Sả Tắc",
-    "GiaSP": "91.000 ₫"
+    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/7a/f2/a5/21d3efa0673a375ce0f33a0e480deee2.jpg",
+    "TenSP": "Cá Linh Kho Tiêu",
+    "GiaSP": 64400.00000000001,
+    "PhanLoai": "ThucPhamKhac",
+    "ID": 702
   },
   {
-    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/97/11/0f/892d44abdb53078e342d30fc7a05379f.png",
-    "TenSP": "Combo Lẩu Bò Wagyu - 900g",
-    "GiaSP": "449.000 ₫"
+    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/65/db/fb/e03daf539d1a5425d712a147a26b950d.jpg",
+    "TenSP": "Bông Điên Điển Xào Thịt Bò",
+    "GiaSP": 101500,
+    "PhanLoai": "ThucPhamKhac",
+    "ID": 703
   },
   {
-    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/38/f7/f0/a75e96ee7f741c097541e84b9c20e369.jpg",
-    "TenSP": "Chả \u001dGiò Hải Sản Con Tôm Đông Lạnh Tashun (400G)",
-    "GiaSP": "77.000 ₫"
+    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/18/a0/7f/c9e2e8f5ed106e7efeb20bc3323ff875.jpg",
+    "TenSP": "Gỏi Bò Bóp Thấu",
+    "GiaSP": 68600,
+    "PhanLoai": "ThucPhamKhac",
+    "ID": 704
   },
   {
-    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/9b/6a/a2/91283400a02310612fe77e20611b3bf8.jpg",
-    "TenSP": "Chả Giò Thịt Heo La Cusina (500G)",
-    "GiaSP": "50.000 ₫"
+    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/03/b2/5a/76054e87591230c5d549de2282d4d562.jpg",
+    "TenSP": "Cần Nước Xào Bò",
+    "GiaSP": 72100,
+    "PhanLoai": "ThucPhamKhac",
+    "ID": 705
   },
   {
-    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/8f/f8/1c/5ce5fefe0104036e8169b7e2e7e6521b.png",
-    "TenSP": "Chả Giò Thịt Nấm Tam Vị G Kitchen (400G)",
-    "GiaSP": "69.000 ₫"
+    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/4e/94/2b/9b0ccd42d86b96669f7d30cd6423f4dc.jpg",
+    "TenSP": "Tép Đồng Xào Bông Điên Điển",
+    "GiaSP": 96600,
+    "PhanLoai": "ThucPhamKhac",
+    "ID": 706
   },
   {
-    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/aa/24/07/09641535ddcb52dd7b68ec542ed7af7f.jpg",
-    "TenSP": "Chà Bông Tôm Tự Nhiên Organicfood - 50g",
-    "GiaSP": "159.000 ₫"
+    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/7c/35/a9/0e02af13c71e14c39e69f2831e4a8a37.jpg",
+    "TenSP": "Cá Diêu Hồng Nấu Ngót",
+    "GiaSP": 69300,
+    "PhanLoai": "ThucPhamKhac",
+    "ID": 707
   },
   {
-    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/4d/e5/7b/d554b7114cf696fef9fe5d085ac8184e.png",
-    "TenSP": "Lẩu Bulgogi Thịt Ba Chỉ Bò Mỹ (770g)",
-    "GiaSP": "224.290 ₫"
+    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/3e/7c/73/07404a21ae0149792aeeea9f148bed23.jpg",
+    "TenSP": "Ếch Chiên Bơ Tỏi",
+    "GiaSP": 85400,
+    "PhanLoai": "ThucPhamKhac",
+    "ID": 708
   },
   {
-    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/1a/79/74/c618902609a5bd8d71929f050dab2a25.jpeg",
-    "TenSP": "Gà kho Sả Ớt - 1 người",
-    "GiaSP": "56.700 ₫"
+    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/d6/94/60/0b52914ca2343a3db2a9db10776f0d46.jpg",
+    "TenSP": "Salad Hải Sản Rong Nho",
+    "GiaSP": 96600,
+    "PhanLoai": "ThucPhamKhac",
+    "ID": 709
   },
   {
-    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/cb/5f/d7/76e9d972ce327bff0c03b8218ddd153b.png",
-    "TenSP": "Combo Lẩu Ozzy Tiện Lợi - 900g",
-    "GiaSP": "289.000 ₫"
+    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/f4/74/63/55879b0192fd5e10e4dfcb7233d7d586.jpg",
+    "TenSP": "Bò Xào Khổ Qua",
+    "GiaSP": 107800,
+    "PhanLoai": "ThucPhamKhac",
+    "ID": 710
   },
   {
-    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/2f/45/90/ce6fbcd939a6cc2b65bb22b9436944f2.jpg",
-    "TenSP": "Canh Chua Cá Lóc",
-    "GiaSP": "77.000 ₫"
+    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/9a/ee/71/52195c4e3c9032860ede6558d8956a05.jpg",
+    "TenSP": "Tôm Sú Chiên Cốm",
+    "GiaSP": 130199.99999999999,
+    "PhanLoai": "ThucPhamKhac",
+    "ID": 711
   },
   {
-    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/3f/11/f8/aad9ea6e9459f15dba193693da9f5a81.jpg",
-    "TenSP": "Chân Giò Heo Muối Thu Hằng Gói 300g",
-    "GiaSP": "97.000 ₫"
+    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/57/ae/a7/92f55256b6ac0a67f3ea4066e399d749.jpg",
+    "TenSP": "Cá Linh Chiên Giòn Chấm Mắm Me",
+    "GiaSP": 77000,
+    "PhanLoai": "ThucPhamKhac",
+    "ID": 712
   },
   {
-    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/db/f9/f4/dbfd628e94e474da555581f59b5d38f9.jpeg",
-    "TenSP": "Lạc xá chay",
-    "GiaSP": "70.000 ₫"
+    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/5b/79/49/60aefabcfa3d56fbe8ecd8a2a46f5b72.jpg",
+    "TenSP": "Cá Linh Chiên Giòn Chấm Mắm Ngò",
+    "GiaSP": 77000,
+    "PhanLoai": "ThucPhamKhac",
+    "ID": 713
   },
   {
-    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/f1/5c/d8/bf897b7d52582420465da63ae3eeb326.jpg",
-    "TenSP": "Đùi lợn muối Parma Bottega Zelachi (100G)",
-    "GiaSP": "168.000 ₫"
+    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/60/e1/54/bb84d11787c35e69da567fa514e2224a.jpg",
+    "TenSP": "Cá Hường Chiên Sả Ớt",
+    "GiaSP": 64400.00000000001,
+    "PhanLoai": "ThucPhamKhac",
+    "ID": 714
   },
   {
-    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/da/fb/f0/06aab87ac63accc67a50a58edb93103e.jpg",
-    "TenSP": "Lạp Xưởng Tươi Vị Tiêu Chenlin (500G)",
-    "GiaSP": "165.000 ₫"
+    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/2c/dc/1a/5a01a8f4b015f943322afbe498fb5970.jpg",
+    "TenSP": "Cà Tím Om Sốt Thịt Bò Bằm Cà Chua",
+    "GiaSP": 77700,
+    "PhanLoai": "ThucPhamKhac",
+    "ID": 715
   },
   {
-    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/26/ae/b1/74567dc985529883c754504bb7c14405.jpg",
-    "TenSP": "Bánh gạo vị phô mai Yopokki (260G)",
-    "GiaSP": "95.000 ₫"
+    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/d3/f0/09/779c786dcfac2b3d6f998dbf6332f88c.jpg",
+    "TenSP": "Tép Đồng Um Khế",
+    "GiaSP": 85400,
+    "PhanLoai": "ThucPhamKhac",
+    "ID": 716
   },
   {
-    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/99/25/db/8e84aed10955369d9e925878025f7d5d.jpg",
-    "TenSP": "Lẩu Bò Ăn Liền Đông Lạnh Chenlin (1Kg)",
-    "GiaSP": "270.000 ₫"
+    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/76/a2/5b/05a95d20b4679e6e430002a4fd98a4f5.jpg",
+    "TenSP": "Ếch Núp Lùm",
+    "GiaSP": 85400,
+    "PhanLoai": "ThucPhamKhac",
+    "ID": 717
   },
   {
-    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/29/2d/85/b4559a5e86d6300c2607ea28c46a9b58.jpeg",
-    "TenSP": "Cà tím nhồi đậu hũ chay",
-    "GiaSP": "48.300 ₫"
+    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/06/22/9c/a561feace5d9e89ad538b0070a73338b.jpg",
+    "TenSP": "Cá Diêu Hồng Chưng Tương",
+    "GiaSP": 137200,
+    "PhanLoai": "ThucPhamKhac",
+    "ID": 718
   },
   {
-    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/00/f8/b1/1b2e116b8f478955e694881847b2b23a.jpg",
-    "TenSP": "Combo Chay Tịnh An Nhiên",
-    "GiaSP": "170.800 ₫"
+    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/14/1f/02/d047faacf5cd9cc523b48795739ebf6f.jpg",
+    "TenSP": "Tôm Sú Cháy Tỏi",
+    "GiaSP": 93800,
+    "PhanLoai": "ThucPhamKhac",
+    "ID": 719
   },
   {
-    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/a4/b6/38/c9f2906f9b7cb4e1d3b5f81cb3e59693.jpg",
-    "TenSP": "Canh Xà Lách Xoong Thịt Bằm",
-    "GiaSP": "55.300 ₫"
+    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/a0/56/98/f754adfc2aa9fe5a678b5dd70804ffff.jpg",
+    "TenSP": "Bò Xào Măng Chua",
+    "GiaSP": 104300,
+    "PhanLoai": "ThucPhamKhac",
+    "ID": 720
   },
   {
-    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/08/07/db/d362500cb75811ea8f12e3d151f4a81a.jpg",
-    "TenSP": "Thịt Heo Xào Nấm Rong Nho",
-    "GiaSP": "137.200 ₫"
+    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/42/1c/ab/af81c3e6339f9aaaad606be8b823b3bd.jpg",
+    "TenSP": "Salad Tôm Rong Nho",
+    "GiaSP": 90300,
+    "PhanLoai": "ThucPhamKhac",
+    "ID": 721
   },
   {
-    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/1e/0f/a2/99cc8612111e049b884ca3638270d158.jpg",
-    "TenSP": "Chả Giò Mayonnaise Bếp 3S - Túi 10 Cuốn",
-    "GiaSP": "160.000 ₫"
+    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/a3/7b/bf/da8c937feb77001144b13b3785781d6c.jpg",
+    "TenSP": "Cá Diêu Hồng Hấp Hồng Kông",
+    "GiaSP": 94500,
+    "PhanLoai": "ThucPhamKhac",
+    "ID": 722
   },
   {
-    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/a7/39/3f/aa09f846aea73b5abe55c1332ebfec33.jpg",
-    "TenSP": "Đùi gà roti nướng sốt ngũ vị (có xương) khay 400g",
-    "GiaSP": "89.000 ₫"
+    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/f8/44/bc/e4d97ddded50f0c404012aa0ec68b873.jpg",
+    "TenSP": "Ếch Xào Sả Ớt",
+    "GiaSP": 72100,
+    "PhanLoai": "ThucPhamKhac",
+    "ID": 723
   },
   {
-    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/f6/45/bf/125a53790277a41e3d25c9fe0b7309f6.png",
-    "TenSP": "Xúc Xích Xông Khói Hickory Nippon CHV Gói 500g",
-    "GiaSP": "118.000 ₫"
+    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/55/a8/51/b98dbffce988991619d39f768a2b31ce.jpg",
+    "TenSP": "Cá Linh Kho Lạt",
+    "GiaSP": 65800,
+    "PhanLoai": "ThucPhamKhac",
+    "ID": 724
   },
   {
-    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/00/6d/fd/1e3c07365302a9e78bdf9cd548129fa0.jpg",
-    "TenSP": "Cánh gà Rang Muối Ớt Hồng Kong",
-    "GiaSP": "56.700 ₫"
+    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/e0/91/a2/985f7e5ac26d999ec61f4e82e6c5676e.jpg",
+    "TenSP": "Cá Linh Kho Nghệ",
+    "GiaSP": 65800,
+    "PhanLoai": "ThucPhamKhac",
+    "ID": 725
   },
   {
-    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/a3/76/a2/53ff09f772f7687082db305da4cb90f9.jpg",
-    "TenSP": "Ba Rọi Xông Khói Nippon CHV Gói 200g",
-    "GiaSP": "58.600 ₫"
+    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/a4/e6/e5/96a6eb4874b8550f3108c3a1352c729e.jpg",
+    "TenSP": "Cá Kèo Kho Tộ",
+    "GiaSP": 77000,
+    "PhanLoai": "ThucPhamKhac",
+    "ID": 726
   },
   {
-    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/4e/d7/b7/097a7369c576c0209f1225c6295a65df.jpg",
-    "TenSP": "Lẩu Gà Tứ Xuyên",
-    "GiaSP": "140.700 ₫"
+    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/0d/6e/70/755a491b44fb7a69f8ed119239644de3.jpg",
+    "TenSP": "Sườn Non Rim Chanh Dây",
+    "GiaSP": 91000,
+    "PhanLoai": "ThucPhamKhac",
+    "ID": 727
   },
   {
-    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/47/4e/ca/6622406074a5e5075ae9116f505af11e.jpg",
-    "TenSP": "Ready to cook - Cốt Lết Heo Ướp Sốt Mật Ong 350g",
-    "GiaSP": "69.000 ₫"
+    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/8d/ab/de/bdb97313e8f580ea1f7d0a102cdc24f0.jpg",
+    "TenSP": "Cá Kèo Kho Rau Răm",
+    "GiaSP": 84000,
+    "PhanLoai": "ThucPhamKhac",
+    "ID": 728
   },
   {
-    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/e9/56/78/7ebab06e18ac9e4677fa48944dfe719c.png",
-    "TenSP": "Chả Giò Thịt Hạt Sen G Kitchen (400G)",
-    "GiaSP": "69.000 ₫"
+    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/21/dd/81/1f2d4d45b0941e3ace4b19ba39b1baaf.jpg",
+    "TenSP": "Trứng Chiên Đậu Cove - 1 người",
+    "GiaSP": 29400,
+    "PhanLoai": "ThucPhamKhac",
+    "ID": 729
   },
   {
-    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/30/e2/e7/dd259b6716ff7da9b3f617312f106122.jpg",
-    "TenSP": "Chả Ram Cá Dông Cát - Bình Định (Bịch 250G)",
-    "GiaSP": "79.000 ₫"
+    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/b3/92/f3/46ea49d353fac8cd523e16487de555f5.jpg",
+    "TenSP": "Bò Xào Cay",
+    "GiaSP": 98000,
+    "PhanLoai": "ThucPhamKhac",
+    "ID": 730
   },
   {
-    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/8e/3f/bb/f5ff453eb6fbe653cb1bbf61fa2d1866.jpg",
-    "TenSP": "Lòng gà xào mướp",
-    "GiaSP": "40.600 ₫"
+    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/24/55/ff/09f5cbea4d44d4d8e5b030bc9df08e86.jpg",
+    "TenSP": "Cá Bống Kho Tiêu",
+    "GiaSP": 77000,
+    "PhanLoai": "ThucPhamKhac",
+    "ID": 731
   },
   {
-    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/ca/92/95/8f224c72c3ae4d93f84292d682946fc5.jpg",
-    "TenSP": "Thịt Ba Chỉ Xào Đậu Đũa",
-    "GiaSP": "81.200 ₫"
+    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/fd/49/8b/60ddf4c4933c5860b64eaf2172e073e8.jpg",
+    "TenSP": "Cá Linh Kho Mía",
+    "GiaSP": 66500,
+    "PhanLoai": "ThucPhamKhac",
+    "ID": 732
   },
   {
-    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/0c/07/6b/778ba506801b202fe4401aa73f59a1c9.jpg",
-    "TenSP": "Cá Chẽm Phile Đông Lạnh Barramundi (340G)",
-    "GiaSP": "209.000 ₫"
+    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/a4/1a/1b/1e9efa6610db1c5d7f80cd2414f1b558.jpg",
+    "TenSP": "Cá Linh Kho Khế",
+    "GiaSP": 69300,
+    "PhanLoai": "ThucPhamKhac",
+    "ID": 733
   },
   {
-    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/85/3f/3c/97ad279c5082e393a2390e5e202f4ee5.jpg",
-    "TenSP": "Gà Om Khoai Tây - 1 Người",
-    "GiaSP": "68.600 ₫"
+    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/3b/af/ee/a59204b538c846572d56c28d3d8e1fc0.jpg",
+    "TenSP": "Bông Thiên Lý Xào Tôm Thịt",
+    "GiaSP": 116900,
+    "PhanLoai": "ThucPhamKhac",
+    "ID": 734
   },
   {
-    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/3f/64/26/b616aabbdd3c67344a8c2cac6a5d4790.jpg",
-    "TenSP": "Gà Kho Riềng - 1 người",
-    "GiaSP": "66.500 ₫"
+    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/8d/ab/de/bdb97313e8f580ea1f7d0a102cdc24f0.jpg",
+    "TenSP": "Cá Kèo Kho Rau Răm",
+    "GiaSP": 84000,
+    "PhanLoai": "ThucPhamKhac",
+    "ID": 735
   },
   {
-    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/29/b4/58/965311dd922e2a48f884b128d3833073.jpg",
-    "TenSP": "Giò lụa hữu cơ - 500g",
-    "GiaSP": "175.000 ₫"
+    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/21/dd/81/1f2d4d45b0941e3ace4b19ba39b1baaf.jpg",
+    "TenSP": "Trứng Chiên Đậu Cove - 1 người",
+    "GiaSP": 29400,
+    "PhanLoai": "ThucPhamKhac",
+    "ID": 736
   },
   {
-    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/4d/e5/7b/5346016cde9b29bc6ac054610cd7b96b.png",
-    "TenSP": "Lẩu Bulgogi Thịt Ba Chỉ Bò Mỹ (770g)",
-    "GiaSP": "224.290 ₫"
+    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/b3/92/f3/46ea49d353fac8cd523e16487de555f5.jpg",
+    "TenSP": "Bò Xào Cay",
+    "GiaSP": 98000,
+    "PhanLoai": "ThucPhamKhac",
+    "ID": 737
   },
   {
-    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/4c/72/83/817e6af70a935ae7873cd56ccf862f67.jpg",
-    "TenSP": "Bánh gạo vị cay ngọt Yopokki (260G)",
-    "GiaSP": "95.000 ₫"
+    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/24/55/ff/09f5cbea4d44d4d8e5b030bc9df08e86.jpg",
+    "TenSP": "Cá Bống Kho Tiêu",
+    "GiaSP": 77000,
+    "PhanLoai": "ThucPhamKhac",
+    "ID": 738
   },
   {
-    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/ff/21/68/0366a9597822c2c12712f5c22e5f5eab.png",
-    "TenSP": "Patê lươn hun khói bổ dưỡng ESTA - 300gr - Foodmap",
-    "GiaSP": "439.000 ₫"
+    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/fd/49/8b/60ddf4c4933c5860b64eaf2172e073e8.jpg",
+    "TenSP": "Cá Linh Kho Mía",
+    "GiaSP": 66500,
+    "PhanLoai": "ThucPhamKhac",
+    "ID": 739
   },
   {
-    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/76/21/01/190802ef924674ffcb6d7639a5564589.png",
-    "TenSP": "Ba Rọi Xông Khói Shinshu Gói 200g",
-    "GiaSP": "65.000 ₫"
+    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/a4/1a/1b/1e9efa6610db1c5d7f80cd2414f1b558.jpg",
+    "TenSP": "Cá Linh Kho Khế",
+    "GiaSP": 69300,
+    "PhanLoai": "ThucPhamKhac",
+    "ID": 740
   },
   {
-    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/16/9b/29/2fc58dbb99e43b9303f48b60ac821814.jpg",
-    "TenSP": "Gà Xào Hạt Điều - 1 người",
-    "GiaSP": "75.600 ₫"
+    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/3b/af/ee/a59204b538c846572d56c28d3d8e1fc0.jpg",
+    "TenSP": "Bông Thiên Lý Xào Tôm Thịt",
+    "GiaSP": 116900,
+    "PhanLoai": "ThucPhamKhac",
+    "ID": 741
   },
   {
     "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/19/e8/41/ee1cafebcf6abbfc87de4fd929802ef1.jpg",
     "TenSP": "Chả Giò Tôm Thịt Đông Lạnh Tashun (400G)",
-    "GiaSP": "60.000 ₫"
+    "GiaSP": 60000,
+    "PhanLoai": "ThucPhamKhac",
+    "ID": 742
   },
   {
     "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/ea/ba/e8/3bcc3d4333fb06090ab5765faf6fb0e0.jpg",
     "TenSP": "Bò Xào Măng Tây Nấm Đùi Gà",
-    "GiaSP": "67.200 ₫"
+    "GiaSP": 67200,
+    "PhanLoai": "ThucPhamKhac",
+    "ID": 743
   },
   {
     "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/ba/73/6a/967fb604784519534707a2d768215a38.jpg",
     "TenSP": "Canh Chua Cá Lóc Bông Thiên Lý",
-    "GiaSP": "126.000 ₫"
+    "GiaSP": 126000,
+    "PhanLoai": "ThucPhamKhac",
+    "ID": 744
   },
   {
     "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/be/54/67/8ea2922489a55b930556536aabf0f9ea.jpg",
     "TenSP": "Gà Nấu Nấm Đông Cô - 1 người",
-    "GiaSP": "65.800 ₫"
+    "GiaSP": 65800,
+    "PhanLoai": "ThucPhamKhac",
+    "ID": 745
   },
   {
     "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/36/c2/b5/b939e68d4ec5269c00f2aa9b796aa83f.jpg",
     "TenSP": "Gà Trống Tươi (1.3-1.5 kg/Con)",
-    "GiaSP": "168.000 ₫"
+    "GiaSP": 168000,
+    "PhanLoai": "ThucPhamKhac",
+    "ID": 746
   },
   {
     "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/ff/f0/c8/02667b9dbefd5161bd1f920a3d48b4aa.jpg",
     "TenSP": "Chả Ram Cá Thát Lát Sinh Hương - Bình Định (Bịch 250G)",
-    "GiaSP": "69.000 ₫"
+    "GiaSP": 69000,
+    "PhanLoai": "ThucPhamKhac",
+    "ID": 747
   },
   {
     "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/a7/67/a6/04c100bdd247a7d98da0e62df3c98586.jpg",
     "TenSP": "Chạo Cá Măng Cuộn Sả Hấp Chín Đông Lạnh Người Giữ Rừng (Bịch 250G)",
-    "GiaSP": "110.000 ₫"
+    "GiaSP": 110000,
+    "PhanLoai": "ThucPhamKhac",
+    "ID": 748
   },
   {
     "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/ef/b7/d9/1a3bfe6e803ce39235ba8f627656fe15.jpg",
     "TenSP": "Tôm Sú Hấp Cá Thác Lác",
-    "GiaSP": "128.100 ₫"
+    "GiaSP": 128100,
+    "PhanLoai": "ThucPhamKhac",
+    "ID": 749
   },
   {
     "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/91/32/9e/5e6d3d4e75a265b7e2ce04c1a57823e4.jpg",
     "TenSP": "Cá Chép Om Dưa",
-    "GiaSP": "189.000 ₫"
+    "GiaSP": 189000,
+    "PhanLoai": "ThucPhamKhac",
+    "ID": 750
   },
   {
     "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/87/47/34/cce4e27ec13d444bef5f5e48ae030aa4.jpg",
     "TenSP": "Canh Cải Ngọt Nấu Tôm Bằm",
-    "GiaSP": "50.400 ₫"
+    "GiaSP": 50400,
+    "PhanLoai": "ThucPhamKhac",
+    "ID": 751
   }
 ]

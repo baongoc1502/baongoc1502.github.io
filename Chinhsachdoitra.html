@@ -1,0 +1,224 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Chính sách bảo hành - FreshFood</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--Our Style-->
+    <link rel="stylesheet" href="CSS/home.css" />
+    <link rel="stylesheet" href="CSS/Giohang.css" />
+    <style type="text/css">
+       p {
+        
+            font-size: 18px;
+        }
+
+        tit {
+            
+            font-size: 19px;
+            color: #019009;
+        }
+        u {           
+            font-size: 18px;
+        }
+        th {
+            font-weight: bold;          
+            font-size: 18px;
+            color: #019009;
+        }
+        td {          
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md">
+            <div>
+                <a href="indexage.html" style="width: 100px">
+                    <img src="https://lh3.googleusercontent.com/pw/ACtC-3ce4BjdIzHQ0pPgA0INvEaqaMVQr81s86ZVw2AzGEG6jvPPPNrM1CXfED1J0NsFYIRGYYy0fdXYHMzAM0l91Gv8qwPtFX4JN4PnW0qbNmtmZysEirS9cyxuW-h2CnWVJS_78dEaUfLm0McLXto8NGVp=w892-h1018-no?authuser=0&fbclid=IwAR1VyTqdCO7_Xai1qcXSC1VMb1Ziez8jGzAs8FoykofNjSC1hL2DBGUI6ZE" height="100" alt="Fresh Food">
+                </a>
+                <logo>FRESH FOOD</logo>
+            </div>
+            <div class="search-box d-flex align-items-center  justify-content-center">
+                <a href="Search.html">
+                    <input class="input-field w-80 h-80" placeholder="Search...">
+                </a>
+                <i class="fa fa-search" style="color:#2A6049"></i>
+            </div>
+            <div>
+                <Button style="float:right" class="btn" onclick="login()"><i class="fa fa-user icon "></i> Login</Button>
+                <script>
+                    function login() {
+                        location.assign("../DangNhap.html");
+                    }
+                </script>
+            </div>
+
+
+            <div>
+
+                <Button id="cart" class="btn"><i class="fa fa-shopping-cart icon"></i> Cart</Button>
+            </div>
+            <div id="myCart" class="tableshow">
+                <div class="tableshow-content">
+                    <div class="tableshow-header">
+                        <h5 class="tableshow-title">Giỏ Hàng</h5>
+                        <span class="close">&times;</span>
+                    </div>
+                    <div class="tableshow-body">
+                        <div class="cart-row">
+                            <span class="cart-item cart-header cart-column">Sản Phẩm</span>
+                            <span class="cart-price cart-header cart-column">Giá</span>
+                            <span class="cart-quantity cart-header cart-column">Số Lượng</span>
+                        </div>
+                        <div class="cart-items">
+
+                        </div>
+                        <div class="cart-total">
+                            <strong class="cart-total-title">Tổng Cộng:</strong>
+                            <span class="cart-total-price">0VNĐ</span>
+                        </div>
+                    </div>
+                    <div class="tableshow-footer">
+                        <button type="button" class="btn btn-secondary close-footer">Đóng</button>
+                        <button type="button" class="btn btn-primary order">Thanh Toán</button>
+                    </div>
+                </div>
+            </div>
+            <script src="Cart.js"></script>
+
+        </nav>
+        <div id="Container">
+            <ul>
+                <li><a href="index.html" style="border:solid 2px black; border-radius:10px">Trang chủ</a></li>
+                <li><a href="Uudai.html">Ưu đãi</a></li>
+                <li>
+                    <a>Sản phẩm</a>
+                    <ul id="ul">
+                        <li><a href='ThitCa.html'>Thịt cá</a></li>
+                        <li><a href='HaiSan.html'>Hải sản</a></li>
+                        <li><a href='TraiCay.html'>Trái cây</a></li>
+                        <li><a href='BoTrungSua.html'>Bơ trứng sữa</a></li>
+                        <li><a href='SanPhamKhac_Page1.html'>Sản phẩm khác</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="Contact.html">Liên hệ</a>
+
+                </li>
+                <li>
+                    <a href="Aboutme.html">Về chúng tôi</a>
+                </li>
+                <li><a href="TinTuc.html">Tin tức</a></li>
+            </ul>
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <h2 align="Center">Chính sách đổi, trả hàng</h2>
+            <tit>
+                Căn cứ vào đặc thù sản phẩm tươi sống và nhằm nâng cao chất lượng dịch vụ sau bán hàng,
+                hệ thống thực phẩm sạch Fresh Food xin trân trọng gửi tới quý khách  hàng Quy định đổi trả sản phẩm tại
+                Fresh Food như sau:
+            </tit>
+            <br />
+            <p>
+                &nbsp;1.&nbsp;Fresh Food đổi trả sản phẩm hoặc hoàn lại tiền mua cho khách hàng đối với sản phẩm lỗi hỏng,
+                khi <tit>đáp ứng đồng thời</tit> các điều kiện như sau:
+                <br />
+                &nbsp;&nbsp;•&nbsp;&nbsp; &nbsp;Khách hàng khiếu nại trong <tit>thời gian quy định</tit> đối với từng loại sản phẩm, cụ thể như sau:
+                <table style="width:100%">
+                    <tr>
+                        <td align="center">
+                            <table border="1" cellspacing="0" width="600">
+                                <tr align="center">
+                                    <th>Sản phẩm</th>
+                                    <th>Thời hạn đổi trả</th>
+                                    <th>Giá trị đổi trả</th>
+                                </tr>
+                                <tr align="center">
+                                    <td>Thịt, cá, hải sản</td>
+                                    <td>Trong vòng 48h</td>
+                                    <td>100% giá trị đơn hàng</td>
+                                </tr>
+                                <tr align="center">
+                                    <td>Các loại củ</td>
+                                    <td>Trong vòng 48h</td>
+                                    <td>100% giá trị đơn hàng</td>
+                                </tr>
+                                <tr align="center">
+                                    <td>Rau tươi</td>
+                                    <td>Trong vòng 24h</td>
+                                    <td>100% giá trị đơn hàng</td>
+                                </tr>
+                                <tr align="center">
+                                    <td>Hoa quả ăn ngay</td>
+                                    <td>Trong vòng 24h</td>
+                                    <td>Bằng giá trị hàng hỏng, lỗi</td>
+                                </tr>
+                                <tr align="center">
+                                    <td>Hoa quả để chín</td>
+                                    <td>Trong vòng 72h</td>
+                                    <td>Bằng giá trị hàng hỏng, lỗi</td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+
+                <br />
+            <p>
+                &nbsp;&nbsp;•&nbsp;&nbsp; &nbsp;Khách hàng cung cấp <tit>hóa đơn mua hàng</tit>, mang theo
+                <bsản phẩm lỗi></bsản>, hỏng hoặc chụp lại <tit>hình ảnh</tit> làm căn cứ xác định nguyên nhân và giá
+                trị phần sản phẩm bị hỏng, lỗi.
+                <br />
+                Fresh Food sẽ <tit>KHÔNG</tit> xử lý khiếu nại với các trường hợp sản phẩm bị hỏng do lỗi của khách hàng
+                trong quá trình vận chuyển, hoặc bảo quản và sử dụng không đúng hướng dẫn. Sản phẩm đã mua xin
+                miễn đổi trả nếu không bị lỗi, hỏng hay có vấn đề về chất lượng.
+            </p>
+            <p>
+                &nbsp;2.&nbsp;Khách hàng có thể đổi lấy sản phẩm loại khách với  giá trị tương đương với giá trị
+                tiền sản phẩm bị lỗi. Giá trị sản phẩm lỗi bằng lượng sản phẩm lỗi nhân với đơn giá tại thời điểm
+                khách hàng mua sản phẩm.
+                <br />
+            </p>
+            <p>
+                &nbsp;3.&nbsp;Trường hợp khách hàng muốn <tit>tiến hành làm thủ tục hoàn lại tiền</tit>, giá trị tiền sẽ bằng
+                số lượng sản phẩm hỏng, lỗi nhân với đơn giá sản phẩm tại thời điểm khách hàng mua hàng.
+                <br />
+            </p>
+            <br />
+        </div>
+    </section>
+    <footer>
+        <table>
+            <tr>
+                <td>
+                    <img src="https://lh3.googleusercontent.com/pw/ACtC-3f8RpTuGVo-uTjLiy0OQjfZpohRO64du39jL4hvRPRMcKZX0TY8_YgXnzwL_SIougxBi8SoL1FlN3T3wtq0d3DceCF-z4lviXJoyBg3MkMVGlFBQBWverMh606PJdqLhjUcpA-khuediCc5mWfNk4DF=w761-h867-no?authuser=0&fbclid=IwAR29GpHVdKFD-Ht3oiC6LDi9Kxonvd__iQbfzX5IJMXo4_98X3Dzif-oqJw" height="200" alt="Fresh Food">
+                </td>
+                <td>
+                    <p><b>Địa chỉ:</b> 669 QL1A, Thủ Đức, TP Hồ Chí Minh</p>
+                    <p><b>Email:</b> freshfood@gmail.com</p>
+                    <p><b>Số điện thoại:</b>0123456789</p>
+                </td>
+                <td>
+                    <h4>Trợ giúp</h4>
+                    <p><a href="Chinhsachdoitra.html">Chính sách đổi, trả hàng</a> <p />
+                    <p><a href="Huongdanthanhtoan.html">Hướng dẫn thanh toán</a> <p />
+                    <p><a href="Chinhsachgiaohang.html">Chính sách giao hàng</a> <p />
+                    <a href="#"><i class="fa fa-facebook icon"></i></a>
+                    <a href="#"><i class="fa fa-instagram icon"></i></a>
+                    <a href="#"><i class="fa fa-youtube icon"></i></a>
+                </td>
+                <td width="30%">
+                    <img height="110" width="300" src="https://lh3.googleusercontent.com/pw/ACtC-3ePRuZXzjLv_OWmy_S868RmodyASztyYnZ811PZP1OVzo_ACOAVyEEGylhmxI29Q73-BS13xNcjRcfWDc_ZkADmRk9LoL_FGa7xSlvX6qlA29d0csBZ8ZiRp9DDi8wCu5TWhqAMPasccgluvYqTVnlF=w413-h152-no?authuser=0&fbclid=IwAR0ViQtRSO2UKgiUYRx-vnc7GeVG_nP2erJmK94dzDfkmWNlRsIpkdfzYa4" />
+                    <img height="110" width="300" src="https://lh3.googleusercontent.com/pw/ACtC-3fMHgh7iEL3nS6YDgK8Wugods1E0QTWwz7s9VXkIlLuF3QjkyQrdwJkViAKJxAx8uV0e4_DsoopSPuRHQcO3orQ32ZN--33b_c8bzSLv1SpIOTRpAc-x5PHssuR5XktKw3heG5qpgs0r46Vjjxto5EN=w444-h152-no?authuser=0&fbclid=IwAR29GpHVdKFD-Ht3oiC6LDi9Kxonvd__iQbfzX5IJMXo4_98X3Dzif-oqJw" />
+                </td>
+            </tr>
+        </table>
+    </footer>
+</body>
+</html>

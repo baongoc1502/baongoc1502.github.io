@@ -1,97 +1,135 @@
 [
   {
-    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/34/16/f8/bb489164c5ec239d6084a118b7ec78ff.jpg",
-    "TenSP": "Thịt Heo Borrowdale - Heo Lúc Lắc - 200g",
-    "GiaSP": "85.200 ₫"
-  },
-  {
-    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/fd/71/c4/c0c10a694f958764858208fc56001640.jpg",
-    "TenSP": "Bắp heo rút xương hữu cơ 500g",
-    "GiaSP": "147.500 ₫"
-  },
-  {
-    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/eb/03/e5/70ac7a4616328be8acf8911fea860dfd.jpg",
-    "TenSP": "Bò hữu cơ Mara - Thịt Xay - 200g",
-    "GiaSP": "145.000 ₫"
-  },
-  {
-    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/69/a7/48/bfa91ff28e6b2d950f7100f57a06f922.png",
-    "TenSP": "Ba Chỉ Heo (Loại Trải Thẳng) - 500g",
-    "GiaSP": "100.000 ₫"
-  },
-  {
-    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/54/5c/1d/3142288ce98c576911fd45c1e9670f07.png",
-    "TenSP": "Ba Rọi Heo Cắt Lát Đông Lạnh 2mm túi 250g",
-    "GiaSP": "75.000 ₫"
-  },
-  {
-    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/4b/04/b9/b8ae69a7a4fdfa88cf86ea897826cabc.jpg",
-    "TenSP": "Thịt Heo Borrowdale - Thái Lát Xào - 200g",
-    "GiaSP": "98.800 ₫"
-  },
-  {
-    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/00/ad/9d/5d894d50f8e2caa7e23fa23cf39c1ced.jpg",
-    "TenSP": "Thịt chóp vai bò Mỹ hotpot 300g",
-    "GiaSP": "126.000 ₫"
-  },
-  {
-    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/c1/56/08/85e3ab16e66bd91f5ff5ee05c5be878a.jpg",
-    "TenSP": "Nạc đùi heo hữu cơ FAU - 500g",
-    "GiaSP": "127.500 ₫"
-  },
-  {
-    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/da/23/1f/cdee99fd761d4ee262a1176adba25678.jpg",
-    "TenSP": "Bắp hoa bò Mỹ hotpot 500g",
-    "GiaSP": "233.000 ₫"
-  },
-  {
-    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/56/29/16/dc96564796d2a03ad27a40569e17043b.png",
-    "TenSP": "Nạc Dăm CP Vỉ 300g",
-    "GiaSP": "56.700 ₫"
-  },
-  {
     "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/24/81/f1/4c9aa20ef38568f2caafd96b3946dcd1.jpg",
     "TenSP": "Sườn bò Mỹ có xương BBQ 500g",
-    "GiaSP": "365.000 ₫"
+    "GiaSP": 365000,
+    "PhanLoai": "ThitCa",
+    "ID": 317
   },
   {
     "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/73/27/08/bed36e8b82ac7bb135d98abb07d9b9b8.jpg",
     "TenSP": "Thịt nướng Sườn Bò Mỹ rút xương Orifood (300g)",
-    "GiaSP": "285.000 ₫"
+    "GiaSP": 285000,
+    "PhanLoai": "ThitCa",
+    "ID": 318
   },
   {
     "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/74/db/6b/74bde7a857d8d4d1e318bd7b2fc9ede2.png",
     "TenSP": "Ba Rọi Rút Sườn G-Kitchen Vỉ 300g",
-    "GiaSP": "95.700 ₫"
+    "GiaSP": 95700,
+    "PhanLoai": "ThitCa",
+    "ID": 319
   },
   {
     "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/20/40/7e/cb25a4d313dc4d9017a643876d845289.jpg",
     "TenSP": "Combo thịt nướng Bắp Bò Úc Orifood (600g)",
-    "GiaSP": "216.600 ₫"
+    "GiaSP": 216600,
+    "PhanLoai": "ThitCa",
+    "ID": 320
   },
   {
     "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/34/63/94/48e28c616f0333f20ef5d0f18799227a.jpg",
     "TenSP": "Lõi thịt vai bò Mỹ BBQ 300g",
-    "GiaSP": "226.000 ₫"
+    "GiaSP": 226000,
+    "PhanLoai": "ThitCa",
+    "ID": 321
   },
   {
     "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/7d/ad/e7/2c1187e9044082c825dd263627882be2.png",
     "TenSP": "Ba Rọi G-Kitchen Vỉ 300g",
-    "GiaSP": "69.000 ₫"
+    "GiaSP": 69000,
+    "PhanLoai": "ThitCa",
+    "ID": 322
   },
   {
     "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/ba/90/51/fb06cb60ab6d0f4c125b1734a58af213.jpg",
-    "TenSP": "Thịt Bò Xay Rum Jungle (500G)",
-    "GiaSP": "209.000 ₫"
+    "TenSP": "Thịt Bò Xay Rum Jungle (500G) - Đảm bảo 100% thịt tươi sạch.",
+    "GiaSP": 209000,
+    "PhanLoai": "ThitCa",
+    "ID": 323
   },
   {
     "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/82/61/db/55c6e9ac58b13fdbd5da3ba042cd45a6.jpg",
     "TenSP": "Thịt bò Úc xay Pacow 250G",
-    "GiaSP": "86.265 ₫"
+    "GiaSP": 86265,
+    "PhanLoai": "ThitCa",
+    "ID": 324
   },
   {
     "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/d9/e9/01/a239b0d767c2c844a55ebff77f2618d3.png",
     "TenSP": "Thịt Lõi Vai Bò Angus MB3+ Cắt Nướng BBQ - 300g",
-    "GiaSP": "147.000 ₫"
+    "GiaSP": 147000,
+    "PhanLoai": "ThitCa",
+    "ID": 325
+  },
+  {
+    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/26/37/8c/24858ac8d1e89bff23ff09802086f7cc.jpg",
+    "TenSP": "Thịt bò Úc tái Pacow 250G",
+    "GiaSP": 130005,
+    "PhanLoai": "ThitCa",
+    "ID": 326
+  },
+  {
+    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/8c/59/8f/189f028a77fa1a347b340f9012cd3c2d.jpg",
+    "TenSP": "Bít Tết đùi bò Úc Pacow 250G",
+    "GiaSP": 135270,
+    "PhanLoai": "ThitCa",
+    "ID": 327
+  },
+  {
+    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/00/ef/e2/1b8bdc080fada75c0bc14a2d92152e68.jpg",
+    "TenSP": "Bò hữu cơ Mara - Gàu bò lẩu Shabu Shabu - 250g ",
+    "GiaSP": 204600,
+    "PhanLoai": "ThitCa",
+    "ID": 328
+  },
+  {
+    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/a7/40/dd/c3ae263651940443bd2116bd27594661.jpg",
+    "TenSP": "Thịt Heo Borrowdale - Vai heo cắt kiểu shabu - 250g ",
+    "GiaSP": 163600,
+    "PhanLoai": "ThitCa",
+    "ID": 329
+  },
+  {
+    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/1a/28/79/bad7ac5985d1286353bd5c92f5a7009c.jpg",
+    "TenSP": "Nạc Vai Bò Úc Orifood (600g)",
+    "GiaSP": 218000,
+    "PhanLoai": "ThitCa",
+    "ID": 330
+  },
+  {
+    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/d9/b0/12/feb3d0884a002fa4aa82aa0d99f09a72.jpg",
+    "TenSP": "Lõi Vai Bò Mỹ (Cắt Beefsteak) - 500g",
+    "GiaSP": 180000,
+    "PhanLoai": "ThitCa",
+    "ID": 331
+  },
+  {
+    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/00/59/34/9c221007dbd68226eed2fc437946dc86.jpg",
+    "TenSP": "Bò hữu cơ Mara  - Thịt Bò Thái Lát Xào - 200g ",
+    "GiaSP": 161800,
+    "PhanLoai": "ThitCa",
+    "ID": 332
+  },
+  {
+    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/0f/bc/7f/1bbb6303913a7d1b2857a1dc40c14657.jpg",
+    "TenSP": "Bò hữu cơ Mara - Bò Lúc Lắc - 200g ",
+    "GiaSP": 161800,
+    "PhanLoai": "ThitCa",
+    "ID": 333
+  },
+  {
+    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/f0/bb/1d/ca5c2026a236dd0e13bd3d0e14f10d00.jpg",
+    "TenSP": "THỊT NẠC THĂN HỮU CƠ FAU 500G",
+    "GiaSP": 135000,
+    "PhanLoai": "ThitCa",
+    "ID": 334
+  },
+  {
+    "Image": "https://salt.tikicdn.com/cache/280x280/ts/product/9a/b2/bc/f43d4c677ab4bdf26974574647152026.jpg",
+    "TenSP": "Thịt Heo Borrowdale - Steak Đùi Thăn - 200g ",
+    "GiaSP": 110800,
+    "PhanLoai": "ThitCa",
+    "ID": 335
   }
 ]

@@ -1,0 +1,197 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Thực phẩm tăng cường hệ miễn dịch cho trẻ trong mùa lạnh</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--Our Style-->
+    <link rel="stylesheet" href="CSS/TinTuc.css">
+    <link rel="stylesheet" href="CSS/Giohang.css" type="text/css" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md">
+            <div>
+                <a href="index.html" style="width: 100px">
+                    <img src="https://lh3.googleusercontent.com/pw/ACtC-3ce4BjdIzHQ0pPgA0INvEaqaMVQr81s86ZVw2AzGEG6jvPPPNrM1CXfED1J0NsFYIRGYYy0fdXYHMzAM0l91Gv8qwPtFX4JN4PnW0qbNmtmZysEirS9cyxuW-h2CnWVJS_78dEaUfLm0McLXto8NGVp=w892-h1018-no?authuser=0&fbclid=IwAR1VyTqdCO7_Xai1qcXSC1VMb1Ziez8jGzAs8FoykofNjSC1hL2DBGUI6ZE" height="100" alt="Fresh Food">
+                </a>
+                <logo>FRESH FOOD</logo>
+            </div>
+            <div class="search-box d-flex align-items-center  justify-content-center">
+                <a href="Search.html">
+                    <input class="input-field w-80 h-80" placeholder="Search...">
+                </a>
+                <i class="fa fa-search" style="color:#2A6049"></i>
+            </div>
+            <div>
+                <Button style="float:right" class="btn" onclick="login()"><i class="fa fa-user icon "></i> Login</Button>
+                <script>
+                    function login() {
+                        location.assign("../DangNhap.html");
+                    }
+                </script>
+            </div>
+            <div>
+
+                <Button id="cart" class="btn"><i class="fa fa-shopping-cart icon"></i> Cart</Button>
+            </div>
+            <div id="myCart" class="tableshow">
+                <div class="tableshow-content">
+                    <div class="tableshow-header">
+                        <h5 class="tableshow-title">Giỏ Hàng</h5>
+                        <span class="close">&times;</span>
+                    </div>
+                    <div class="tableshow-body">
+                        <div class="cart-row">
+                            <span class="cart-item cart-header cart-column">Sản Phẩm</span>
+                            <span class="cart-price cart-header cart-column">Giá</span>
+                            <span class="cart-quantity cart-header cart-column">Số Lượng</span>
+                        </div>
+                        <div class="cart-items">
+
+                        </div>
+                        <div class="cart-total">
+                            <strong class="cart-total-title">Tổng Cộng:</strong>
+                            <span class="cart-total-price">0VNĐ</span>
+                        </div>
+                    </div>
+                    <div class="tableshow-footer">
+                        <button type="button" class="btn btn-secondary close-footer">Đóng</button>
+                        <button type="button" class="btn btn-primary order">Thanh Toán</button>
+                    </div>
+                </div>
+            </div>
+            <script src="Cart.js"></script>
+
+        </nav>
+        <div id="Container">
+            <ul>
+                <li><a href="index.html">Trang chủ</a></li>
+                <li><a href="Uudai.html">Ưu đãi</a></li>
+                <li>
+                    <a>Sản phẩm</a>
+                    <ul id="ul">
+                        <li><a href='ThitCa.html'>Thịt cá</a></li>
+                        <li><a href='HaiSan.html'>Hải sản</a></li>
+                        <li><a href='TraiCay.html'>Trái cây</a></li>
+                        <li><a href='BoTrungSua.html'>Bơ trứng sữa</a></li>
+                        <li><a href='SanPhamKhac_Page1.html'>Sản phẩm khác</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="Contact.html">Liên hệ</a>
+
+                </li>
+                <li>
+                    <a href="Aboutme.html">Về chúng tôi</a>
+                </li>
+                <li><a href="TinTuc.html" style="border:solid 2px black; border-radius:10px">Tin tức</a></li>
+            </ul>
+        </div>
+    </header>
+    <h1 align="center">Tin tức</h1>
+    <h2>
+        Thực phẩm tăng cường hệ miễn dịch cho trẻ trong mùa lạnh
+    </h2>
+
+    <table>
+        <tr>
+            <td align="center">
+                <h5>
+
+                    Ớt chuông đỏ, tỏi, gừng, đều là những thực phẩm dồi dào chất chống oxy hóa, chống viêm, giúp tăng cường hệ miễn dịch cho trẻ vào mùa lạnh.
+                </h5>
+            </td>
+
+        </tr>
+        <tr>
+            <td>
+                <img src="images/tin5_1.jpg" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Ớt chuông đỏ: Trong loại rau củ này chứa beta carotene, rất tốt cho da và mắt. Ớt chuông đỏ cũng rất giàu vitamin C, thậm chí, hàm lượng chất này của nó còn nhiều hơn cam. Ớt chuông đỏ cũng khiến món ăn của con thêm phần bắt mắt. Ảnh: Eat this.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="images/tin5_2.jpg" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Tỏi: Tỏi là một trong những thực phẩm tốt nhất để tăng cường hệ miễn dịch cho trẻ nhờ thành phần allicin. Chất này có tác dụng chống nhiễm trùng, ngăn ngừa sự tấn công của siêu vi vào cơ thể, giảm nguy cơ mắc các bệnh truyền nhiễm vào mùa lạnh. Tỏi kích thích các tế bào miễn dịch và tăng sinh kháng thể. Nó cũng giàu lưu huỳnh, có tác dụng chống oxy hóa mạnh. Mẹ có thể băm tỏi để xào nấu cùng thức ăn trong bữa ăn cho bé. Ảnh: Freepik.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="images/tin5_3.jpg" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Cam, quýt: Vitamin C trong cam, quýt giúp tăng sinh bạch cầu, chống lại nhiễm trùng. Đây cũng là chất chống oxy hóa, có tác dụng tăng sức đề kháng, bảo vệ thành mạch, hỗ trợ hấp thu sắt, canxi. Nếu thiếu vitamin C, trong mùa lạnh, trẻ dễ bị xuất huyết dưới da, chảy máu cam, viêm nướu. Ảnh: WebMD.
+            </td>
+        </tr>
+        <tr>
+            <td> <img src="images/tin5_4.jpg" /></td>
+        </tr>
+        <tr>
+            <td>Gừng: Theo Đông y, gừng là thực phẩm có tính ấm, thường được sử dụng trong nhiều bài thuốc dân gian. Các chất trong gừng có tác dụng hạ nhiệt, giảm đau, ho; chống viêm, co thắt, nôn, loét; tăng vận trong đường tiêu hóa, ức chế thần kinh trung ương… và có hoạt tính miễn dịch. Tuy nhiên, uống nhiều trà gừng và sản phẩm từ loại củ này dễ khiến cơ thể sản xuất thừa axit, ảnh hưởng hệ tiêu hóa, ợ nóng, rát quang vùng bụng. Vì vậy, phụ huynh cần cân nhắc liều lượng gừng vừa đủ cho trẻ. Ảnh: NDTV.</td>
+        </tr>
+        <tr>
+            <td><img src="images/tin5_5.jpg" /></td>
+        </tr>
+        <tr>
+            <td>
+                Quả mọng: Quả mọng cung cấp lượng chất chống oxy hóa cần thiết cho bé. Chúng ngăn hình thành các tế bào gốc tự do gây tổn thương cơ quan bên trong. Quả mọng cũng góp phần làm tăng cường hệ miễn dịch nhờ anthocyanin, dồi dào vitamin A, C. Ảnh: Pinterest.
+            </td>
+        </tr>
+        <tr>
+            <td> <img src="images/tin5_6.jpg" /></td>
+        </tr>
+        <tr>
+            <td>Bơ: Bơ chứa nhiều chất béo lành mạnh và vitamin E. Cả hai loại đều là chìa khóa vàng giúp tăng cường hệ miễn dịch cho trẻ. Vitamin D trong bơ còn giúp xương chắc, hấp thụ canxi, điều hòa một số men, bài tiết insulin, hormone cận giáp, hệ miễn dịch. Sự thiếu hụt vitamin D có thể dẫn đến sự phát triển xương kém, các vấn đề về tim mạch và hệ thống miễn dịch yếu. Ảnh: Pinterest.</td>
+        </tr>
+        <tr>
+            <td><img src="images/tin5_7.jpg" /></td>
+        </tr>
+        <tr>
+            <td>
+                Các loại rau xanh: Các loại rau lá xanh đặc biệt giàu sắt, vitamin A, giúp hình thành tấm khiên miễn dịch vững chắc, tăng cường miễn dịch. Sắt trong rau bina, cải xoăn, súp lơ, đóng vai trò kích thích sản xuất tế bào bạch cầu và kháng thể. Tuy nhiên, nhiều trẻ không thích ăn rau xanh. Mẹ có thể chế biến chúng thành sinh tố hoặc trộn với thịt, cá viên để trẻ ngon miệng, dễ ăn hơn. Ảnh: Pinterest.
+            </td>
+        </tr>
+    </table>
+
+    <footer>
+        <table>
+            <tr>
+                <td>
+                    <img src="https://lh3.googleusercontent.com/pw/ACtC-3f8RpTuGVo-uTjLiy0OQjfZpohRO64du39jL4hvRPRMcKZX0TY8_YgXnzwL_SIougxBi8SoL1FlN3T3wtq0d3DceCF-z4lviXJoyBg3MkMVGlFBQBWverMh606PJdqLhjUcpA-khuediCc5mWfNk4DF=w761-h867-no?authuser=0&fbclid=IwAR29GpHVdKFD-Ht3oiC6LDi9Kxonvd__iQbfzX5IJMXo4_98X3Dzif-oqJw" height="200" alt="Fresh Food">
+                </td>
+                <td>
+                    <p><b>Địa chỉ:</b> 669 QL1A, Thủ Đức, TP Hồ Chí Minh</p>
+                    <p><b>Email:</b> freshfood@gmail.com</p>
+                    <p><b>Số điện thoại:</b>0123456789</p>
+                </td>
+                <td>
+                    <h4>Trợ giúp</h4>
+                    <p><a href="Chinhsachdoitra.html">Chính sách đổi, trả hàng</a> <p />
+                    <p><a href="Huongdanthanhtoan.html">Hướng dẫn thanh toán</a> <p />
+                    <p><a href="Chinhsachgiaohang.html">Chính sách giao hàng</a> <p />
+                    <a href="#"><i class="fa fa-facebook icon"></i></a>
+                    <a href="#"><i class="fa fa-instagram icon"></i></a>
+                    <a href="#"><i class="fa fa-youtube icon"></i></a>
+                </td>
+                <td width="30%">
+                    <img height="110" width="300" src="https://lh3.googleusercontent.com/pw/ACtC-3ePRuZXzjLv_OWmy_S868RmodyASztyYnZ811PZP1OVzo_ACOAVyEEGylhmxI29Q73-BS13xNcjRcfWDc_ZkADmRk9LoL_FGa7xSlvX6qlA29d0csBZ8ZiRp9DDi8wCu5TWhqAMPasccgluvYqTVnlF=w413-h152-no?authuser=0&fbclid=IwAR0ViQtRSO2UKgiUYRx-vnc7GeVG_nP2erJmK94dzDfkmWNlRsIpkdfzYa4" />
+                    <img height="110" width="300" src="https://lh3.googleusercontent.com/pw/ACtC-3fMHgh7iEL3nS6YDgK8Wugods1E0QTWwz7s9VXkIlLuF3QjkyQrdwJkViAKJxAx8uV0e4_DsoopSPuRHQcO3orQ32ZN--33b_c8bzSLv1SpIOTRpAc-x5PHssuR5XktKw3heG5qpgs0r46Vjjxto5EN=w444-h152-no?authuser=0&fbclid=IwAR29GpHVdKFD-Ht3oiC6LDi9Kxonvd__iQbfzX5IJMXo4_98X3Dzif-oqJw" />
+                </td>
+            </tr>
+        </table>
+    </footer>
+</body>
+</html>

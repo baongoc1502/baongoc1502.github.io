@@ -22,6 +22,9 @@ body{
 header {
     z-index: 1;
     background: #FBF9F1;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
 }
 
 .input-field {
@@ -40,6 +43,15 @@ header {
     border: solid 3px #2A6049;
 }
 
+.wrapper{
+    width:100%;
+}
+
+@media all and (max-width: 320px) {
+    body {
+        background: #e7e7e7;
+    }
+}
 .icon {
     padding: 10px;
     color: white;
@@ -53,7 +65,6 @@ header {
     font-size: 20px;
     background: #2A6049;
     color: white;
-    float: right;
     border: solid 3px #000000;
 }
 
@@ -63,6 +74,7 @@ header {
     left: auto;
     right: auto;
     text-indent: 0px;
+
 }
 
     #Container ul {
@@ -73,7 +85,7 @@ header {
         #Container ul li {
             background: #FBF9F1;
             display: inline-table;
-            margin: 20px 10px;
+            margin: 0px 10px;
             font-size: x-large;
         }
 
@@ -111,14 +123,21 @@ header {
 footer {
     background-color: #2A6049;
     color: white;
+    margin-top: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+   height:100%;
+    left: 0;
+    
 }
 
     footer table td {
-        padding: 30px;
+        padding: 20px;
     }
 
     footer b {
-        font-size: 20px;
+        font-size:15px;
         font-weight: bold;
     }
 
@@ -130,20 +149,32 @@ footer {
             color: antiquewhite
         }
 
+
+.content-wrap {
+    padding-bottom: 2.5rem; /* Footer height */
+}
+
 img {
     padding: 5px;
 }
 
 .banner {
+    display: table;
     background-color: #2A6049;
     color: white;
+    height: 400px;
+    font-size: larger;
 }
 
+    .banner span {
+        display: table-cell;
+        vertical-align: middle;
+    }
 
 
 .product-block {
-    width: 280px;
-    height: 400px;
+    width: 90%;
+    height: 355px;
     position: relative;
     left: auto;
     right: auto;
@@ -152,14 +183,87 @@ img {
     margin: 17px 10px 3px 17px;
     text-align: center;
 }
+.product-block1 {
+    width: 90%;
+    height:320px;
+    position: relative;
+    left: auto;
+    right: auto;
+    border: 1px solid #dfdfdf;
+    float: left;
+    margin: 17px 10px 3px 17px;
+    text-align: center;
+}
+.product-block1 .product-img {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    padding: 2px;
+}
 
-h3 a {
+
+
+    .product-block1 .product-img img {
+        max-width: 100%;
+        margin: 0 auto;
+        transition: All 1s ease;
+        -webkit-transition: All 1s ease;
+        -moz-transition: All 1s ease;
+        -o-transition: All 1s ease;
+        transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+    }
+
+
+.product-block1:hover .product-img img {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+}
+    .product-block .product-img {
+        position: relative;
+        overflow:hidden;
+        text-align: center;
+        padding: 2px;
+    }
+
+
+
+        .product-block .product-img img {
+            max-width: 100%;
+            margin: 0 auto;
+            transition: All 1s ease;
+            -webkit-transition: All 1s ease;
+            -moz-transition: All 1s ease;
+            -o-transition: All 1s ease;
+            transform: scale(1.1);
+            -webkit-transform: scale(1.1);
+            -moz-transform: scale(1.1);
+            -o-transform: scale(1.1);
+            -ms-transform: scale(1.1);
+        }
+
+
+        .product-block:hover .product-img img {
+            transform: scale(1.2);
+            -webkit-transform: scale(1.2);
+            -moz-transform: scale(1.2);
+            -o-transform: scale(1.2);
+            -ms-transform: scale(1.2);
+        }
+
+h5 a {
     color: black;
 }
 
 .product-img {
     width: 200px;
-    height: 200px;
+    height: 180px;
     margin: 5px auto;
     text-align: center;
 }
@@ -203,3 +307,19 @@ logo {
     color: #2A6049;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+strong {
+    font-weight: bold;
+    color: #019009;
+    font-size: 24px;
+}
+
+p {
+    font-size: 16px;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+

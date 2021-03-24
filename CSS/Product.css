@@ -1,9 +1,11 @@
-﻿h5 {
+﻿title {
     position: absolute;
-    top: 20px;
+    /*top: 20px;*/
     right: 30px;
 }
-
+.product{
+    text-align:center
+}
 h1 {
     margin: 0px 0px 0px 20px;
 }
@@ -32,16 +34,17 @@ body {
     float: right;
     border: solid 3px #000000;
 }
-.btnhead:hover {
-    background-color: yellowgreen;
-}
-
-/*.btn:hover {
-    background-color: yellowgreen;
-}*/
+    .btnhead:hover {
+        background-color: yellowgreen;
+        
+    }
 
 header {
-    background: #FBF9F1
+    z-index: 1;
+    background: #FBF9F1;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
 }
 
 .input-field {
@@ -83,7 +86,7 @@ header {
         #Container ul li {
             background: #FBF9F1;
             display: inline-table;
-            margin: 20px 10px;
+            margin: 0px 10px;
             font-size: x-large;
         }
 
@@ -150,7 +153,16 @@ img {
 }
 
 
-
+.btn1 {
+    border-radius: 20px;
+    width:120px;
+    height: 60px;
+    margin: 5px;
+    font-size: 20px;
+    background: #2A6049;
+    color: white;
+    border: solid 3px #000000;  
+}
 
 h3 a {
     color: black;
@@ -173,7 +185,7 @@ h3 a {
     color: darkred;
     font-weight: bold;
     position: absolute;
-    bottom: 90px;
+    bottom: 40px;
     left: 10px;
     right: 10px
 }
@@ -246,7 +258,7 @@ h2 {
 
 .product-block {
     width: 23%;
-    height: 380px;
+    height: 330px;
     position: relative;
     left: auto;
     right: auto;
@@ -351,5 +363,8 @@ h2 {
         margin-left:auto;
         margin-right:auto;
     }
-
-
+logo {
+    font-size: x-large;
+    color: #2A6049;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

@@ -2,47 +2,81 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title></title>
+    <title>FreshFood - Chuyên cung cấp thực phẩm sạch</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!--Our Style-->
     <link rel="stylesheet" href="CSS/home.css">
+    <link rel="stylesheet" href="CSS/Giohang.css" />
 </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-md">
             <div>
                 <a href="#" style="width: 100px">
-                    <img src="../images/logo1.png" height="100" alt="Fresh Food">
+                    <img src="https://lh3.googleusercontent.com/pw/ACtC-3ce4BjdIzHQ0pPgA0INvEaqaMVQr81s86ZVw2AzGEG6jvPPPNrM1CXfED1J0NsFYIRGYYy0fdXYHMzAM0l91Gv8qwPtFX4JN4PnW0qbNmtmZysEirS9cyxuW-h2CnWVJS_78dEaUfLm0McLXto8NGVp=w892-h1018-no?authuser=0&fbclid=IwAR1VyTqdCO7_Xai1qcXSC1VMb1Ziez8jGzAs8FoykofNjSC1hL2DBGUI6ZE" height="100" alt="Fresh Food">
                 </a>
                 <logo>FRESH FOOD</logo>
             </div>
-            <div class="search-box d-flex align-items-center  justify-content-center">
-                <input type="text" class="input-field w-75 h-75" placeholder="Search...">
-                <a href="#"><i class="fa fa-search" style="color:#2A6049"></i></a>
+              <div class="search-box d-flex align-items-center  justify-content-center">
+                <a href="Search.html">
+                    <input class="input-field w-80 h-80" placeholder="Search...">
+                </a>
+                <i class="fa fa-search" style="color:#2A6049"></i>
             </div>
+            <Button style="float:right" class="btn" onclick="login()"><i class="fa fa-user icon "></i> Login</Button>
+            <script>
+                function login() {
+                    location.assign("../DangNhap.html");
+                }
+            </script>
+            <!--Button giỏ hàng-->
             <div>
-                <Button class="btn" href="#"><i class="fa fa-user icon "></i> Login</Button>
+
+                <Button id="cart" class="btn"><i class="fa fa-shopping-cart icon"></i> Cart</Button>
+            </div>
+            <div id="myCart" class="tableshow">
+                <div class="tableshow-content">
+                    <div class="tableshow-header">
+                        <h5 class="tableshow-title">Giỏ Hàng</h5>
+                        <span class="close">&times;</span>
+                    </div>
+                    <div class="tableshow-body">
+                        <div class="cart-row">
+                            <span class="cart-item cart-header cart-column">Sản Phẩm</span>
+                            <span class="cart-price cart-header cart-column">Giá</span>
+                            <span class="cart-quantity cart-header cart-column">Số Lượng</span>
+                        </div>
+                        <div class="cart-items">
+
+                        </div>
+                        <div class="cart-total">
+                            <strong class="cart-total-title">Tổng Cộng:</strong>
+                            <span class="cart-total-price">0VNĐ</span>
+                        </div>
+                    </div>
+                    <div class="tableshow-footer">
+                        <button type="button" class="btn btn-secondary close-footer">Đóng</button>
+                        <button type="button" class="btn btn-primary order">Thanh Toán</button>
+                    </div>
+                </div>
             </div>
 
-            <div>
-                <Button class="btn" href="#"><i class="fa fa-shopping-cart icon"></i> Cart</Button>
-            </div>
-
+            <!--end button-->
         </nav>
         <div id="Container">
             <ul>
                 <li><a href="HomePage.html" style="border:solid 2px black; border-radius:10px">Trang chủ</a></li>
-                <li><a href="#">Ưu đãi</a></li>
+                <li><a href="Uudai.html">Ưu đãi</a></li>
                 <li>
                     <a href="#">Sản phẩm</a>
                     <ul id="ul">
-                        <li><a href='ThitCa.html'>Thịt cá</a></li>
-                        <li><a href='HaiSan.html'>Hải sản</a></li>
-                        <li><a href='TraiCay.html'>Trái cây</a></li>
-                        <li><a href='BoTrungSua.html'>Bơ trứng sữa</a></li>
-                        <li><a href='SanPhamKhac_Page1.html'>Sản phẩm khác</a></li>
+                        <li><a href="ThitCa.html">Thịt cá</a></li>
+                        <li><a href="HaiSan.html">Hải sản</a></li>
+                        <li><a href="TraiCay.html">Trái cây</a></li>
+                        <li><a href="BoTrungSua.html">Bơ trứng sữa</a></li>
+                        <li><a href="SanPhamKhac_Page1.html">Sản phẩm khác</a></li>
                     </ul>
                 </li>
                 <li>
@@ -50,283 +84,312 @@
 
                 </li>
                 <li>
-                    <a href="#">Về chúng tôi</a>
+                    <a href="Aboutme.html">Về chúng tôi</a>
                 </li>
                 <li><a href="TinTuc.html">Tin tức</a></li>
             </ul>
         </div>
     </header>
+    <table>
+        <tr>
+            <td>
+                <div id="carouselId" class="carousel slide my-3 mx-5" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselId" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselId" data-slide-to="1"></li>
+                        <li data-target="#carouselId" data-slide-to="2"></li>
+                    </ol>
 
-    <div id="carouselId" class="carousel u-shadow-v18  slide my-3 mx-5" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#carouselId" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselId" data-slide-to="1"></li>
-            <li data-target="#carouselId" data-slide-to="2"></li>
-        </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <img src="https://lh3.googleusercontent.com/pw/ACtC-3e63kXwqeu8BrnkGFMK-FMo8VaI1kPqJY4XcEtDXhyEeHpUhmBrn6wtp1tWkX6gQgp6vSdvFR03F4yFF6s7Eg8n2zTdjZkyOGAraYQ4NaFJVSeepRXKEjrbIQL6UVtrrs9ozV8_shAy1SfXjNusfB-y=w800-h400-no?authuser=0&fbclid=IwAR2ng3O6RAwRhcJk0HnCtUHHlqruBCQwLLUdjvUg8qOeJqXOntWmxBY81Ms" style="width: 730px; height: 400px; padding:0" alt="First slide">
+                                </div>
+                                <div class="banner col ">
+                                    <span>
+                                        Tưng bừng giảm giá cuối tuần!!! <br />
+                                        Với mong muốn được cung cấp các sản phẩm rau củ quả tươi sạch, theo quy trình trồng rau tự nhiên…
+                                        đảm bảo sức khỏe người tiêu dùng theo đúng tiêu chí "Hàng tận gốc - Tươi mỗi ngày" Freshfood xin giới thiệu cùng Quý Khách hàng chương trình khuyến mãi “Hàng tươi sống - Giá sốc cuối tuần”.
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <img src="https://lh3.googleusercontent.com/pw/ACtC-3c0v07PjoW5lL91uTeWZJIARfvF8DIFQpsTUegO1UfZhhsAqvXeWZpv_jGWqegZV0cg3pwyJi3sRO1DHhzP17YqaUbff4JJ8IPUHSsywprWRm7VXvoHvo0EpA0SqzEjVK_nuY0oYzNhIP4m_lQB9jkO=w710-h400-no?authuser=0&fbclid=IwAR1aM9zajfcUTgyPAnw5JNEpzTt1W4wznxSFiir2OIBKyqNzrhNWMl66qgE" style="width: 730px; height: 400px; padding:0" alt="Second slide">
+                                </div>
+                                <div class="banner col">
+                                    <span>
+                                        Trái cây nhập khẩu cao cấp <br />
+                                        Tại Freshfood, chúng tôi nhập khẩu các loại trái cây tươi ngon nhất, đảm bảo nguồn gốc xuất xứ rõ ràng.
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <img src="https://lh3.googleusercontent.com/pw/ACtC-3c7Ws7Y7pEFy1Sq_d8zMaBcErFsuotIcoo4vKqHFdN0u4EMwQos9z0MFi7WceORN2iy7ny2y46xOt2kRJ5C0SRX6KHjkvgL79Cx1him0sIJ039uiqpQ6jadEPmmfQsz77oXHgugI7OozvEL5sTS5iTl=w1111-h740-no?authuser=0&fbclid=IwAR2ng3O6RAwRhcJk0HnCtUHHlqruBCQwLLUdjvUg8qOeJqXOntWmxBY81Ms" style="width: 730px; height: 400px; padding:0" alt="Third slide">
+                                </div>
+                                <div class="banner col">
+                                    <span>
+                                        Freshfood mang hải sản tươi ngon nhất từ mọi vùng biển trên thế giới về phục vụ người Việt cùng trải nghiệm thưởng thức hải sản tốt nhất,
+                                        Freshfood mong muốn mang lại bữa ăn hạnh phúc, sum vầy cho mọi gia đình, mang lại cuộc sống chất lượng hơn cho mọi khách hàng.
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-        <div class="carousel-inner" role="listbox">
-            <div class="carousel-item active">
-                <div class="row">
-                    <div class="col-md-7">
-                        <img src="../images/giamgia.jpg" style="width: 730px; height: 400px;" alt="First slide">
-                    </div>
-                    <div class="banner col ">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt officiis quas impedit dolor dolores, odit mollitia, atque quam quasi illum cum eum unde deserunt ab reiciendis soluta. Perferendis, ipsa beatae.
-                    </div>
+                    <a class="carousel-control-prev" href="#carouselId" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselId" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
                 </div>
-            </div>
-            <div class="carousel-item">
-                <div class="row">
-                    <div class="col-md-7">
-                        <img src="../images/hoaqua.jpg" style="width: 730px; height: 400px;" alt="First slide">
-                    </div>
-                    <div class="banner col">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt officiis quas impedit dolor dolores, odit mollitia, atque quam quasi illum cum eum unde deserunt ab reiciendis soluta. Perferendis, ipsa beatae.
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="row">
-                    <div class="col-md-7">
-                        <img src="../images/haisan.jpg" style="width: 730px; height: 400px;" alt="First slide">
-                    </div>
-                    <div class="banner col">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt officiis quas impedit dolor dolores, odit mollitia, atque quam quasi illum cum eum unde deserunt ab reiciendis soluta. Perferendis, ipsa beatae.
-                    </div>
-                </div>
-            </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselId" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselId" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
-    </div>
+            </td>
+        </tr>
+    </table>
+   
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <table class="table1">
-        <tr><td colspan="4"><h2>Sản phẩm bán chạy</h2></td></tr>
-        <tr>
-            <td>
-                <div class="product-block">
-                    <div class="product-img ">
-                        <a href="#" title="Bắp cải RA">
-                            <img class="first-image  has-img" alt=" Bắp cải RA " src="//product.hstatic.net/1000191320/product/b_p_c_i_tr_ng_trf_large.jpg" />
-                        </a>
-                    </div>
-                    <div>
-                        <!-- sử dụng pull-left -->
-                        <h3><a href="#">Bắp cải RA </a></h3>
-                        <div class="pro-price">
-                            <p>35,000₫</p>
-                        </div>
-                    </div>
-                    <div class="container-fluid add-cart" style="margin:5px 20px">
-                        <input type="number" class="form-control text-center col-10" value="1">
-                    </div>
-                    <div>
-                        <button class="btn" style="float:none"><span>Thêm vào giỏ</span><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
-                    </div>
-                </div>
-            </td>
-            <td>
-                <div class="product-block ">
-                    <div class="product-img ">
-                        <a href="#" title="Bắp cải RA">
-                            <img class="first-image  has-img" alt=" Cà rốt " src="//product.hstatic.net/1000191320/product/c__r_t_nh_t_large.jpg" />
-                        </a>
-                    </div>
-                    <div>
-                        <!-- sử dụng pull-left -->
-                        <h3><a href="#">Cà Rốt</a></h3>
-                        <div class="pro-price">
-                            <p>12,000₫</p>
-                        </div>
-                    </div>
-                    <div class="container-fluid add-cart" style="margin:5px 20px">
-                        <input type="number" class="form-control text-center col-10" value="1">
-                    </div>
-                    <div>
-                        <button class="btn" style="float:none"><span>Thêm vào giỏ</span><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
-                    </div>
-                </div>
-            </td>
-            <td>
-                <div class="product-block">
-                    <div class="product-img ">
-                        <a href="#" title="Bắp cải RA">
-                            <img class="first-image  has-img" alt="Khoai lang" src="//product.hstatic.net/1000191320/product/khoang-lang-mat-da-lat_large.jpg" />
-                        </a>
-                    </div>
-                    <div>
-                        <!-- sử dụng pull-left -->
-                        <h3><a href="#">Khoai lang</a></h3>
-                        <div class="pro-price">
-                            <p>35,000₫</p>
-                        </div>
-                    </div>
-                    <div class="container-fluid add-cart" style="margin:5px 20px">
-                        <input type="number" class="form-control text-center col-10" value="1">
-                    </div>
-                    <div>
-                        <button class="btn" style="float:none"><span>Thêm vào giỏ</span><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
-                    </div>
-                </div>
-            </td>
-            <td>
-                <div class="product-block">
-                    <div class="product-img">
-                        <a href="#" title="Bắp cải RA">
-                            <img class="first-image  has-img" alt=" Ngọn đậu Hà Lan" src="//product.hstatic.net/1000191320/product/9570164244510_large.jpg" />
-                        </a>
-                    </div>
-                    <div>
-                        <!-- sử dụng pull-left -->
-                        <h3><a href="#">Ngọn đậu Hà Lan</a></h3>
-                        <div class="pro-price">
-                            <p>35,000₫</p>
-                        </div>
-                    </div>
-                    <div class="container-fluid add-cart" style="margin:5px 20px">
-                        <input type="number" class="form-control text-center col-10" value="1">
-                    </div>
-                    <div>
-                        <button class="btn" style="float:none"><span>Thêm vào giỏ</span><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
-                    </div>
-                </div>
-            </td>
-        </tr>
-        <tr> <td colspan="4"><h2>Sản phẩm giảm giá</h2></td></tr>
-        <tr>
-
-            <td>
-                <div class="product-block">
-                    <div class="tag-sale">-20%</div>
-                    <div class="product-img ">
-                        <a href="#" title="Bắp cải RA">
-                            <img class="first-image  has-img" alt="Củ cải trắng" src="//product.hstatic.net/1000191320/product/cu-cai_large.jpg" />
-                        </a>
-                    </div>
-                    <div>
-                        <!-- sử dụng pull-left -->
-                        <h3><a href="#">Củ cải trắng</a></h3>
-                        <div class="pro-price">
-                            <p>28,000₫ <del>35,000₫ </del> </p>
-                        </div>
-                    </div>
-                    <div class="container-fluid add-cart" style="margin:5px 20px">
-                        <input type="number" class="form-control text-center col-10" value="1">
-                    </div>
-                    <div>
-                        <button class="btn" style="float:none"><span>Thêm vào giỏ</span><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
-                    </div>
-                </div>
-            </td>
-            <td>
-                <div class="product-block ">
-                    <div class="tag-sale">-10%</div>
-                    <div class="product-img ">
-                        <a href="#">
-                            <img class="first-image  has-img" alt="Ngọn su su" src="//product.hstatic.net/1000191320/product/ngon-su-su_large.jpg" />
-                        </a>
-                    </div>
-                    <div>
-                        <!-- sử dụng pull-left -->
-                        <h3><a href="#">Ngọn su su</a></h3>
-                        <div class="pro-price">
-                            <p>27,000₫ <del>30,000₫ </del> </p>
-                        </div>
-                    </div>
-                    <div class="container-fluid add-cart" style="margin:5px 20px">
-                        <input type="number" class="form-control text-center col-10" value="1">
-                    </div>
-                    <div>
-                        <button class="btn" style="float:none"><span>Thêm vào giỏ</span><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
-                    </div>
-                </div>
-            </td>
-            <td>
-                <div class="product-block">
-                    <div class="tag-sale">-5%</div>
-                    <div class="product-img ">
-                        <a href="#" title="Bắp cải RA">
-                            <img class="first-image  has-img" alt="Bí đỏ" src="//product.hstatic.net/1000191320/product/cach-nhan-biet-bi-do-trung-quoc-voi-bi-do-viet-nam-3_760x582_large.jpg" />
-                        </a>
-                    </div>
-                    <div>
-                        <!-- sử dụng pull-left -->
-                        <h3><a href="#">Bí đỏ</a></h3>
-                        <div class="pro-price">
-                            <p>28,500₫ <del>30,000₫ </del> </p>
-                        </div>
-                    </div>
-                    <div class="container-fluid add-cart" style="margin:5px 20px">
-                        <input type="number" class="form-control text-center col-10" value="1">
-                    </div>
-                    <div>
-                        <button class="btn" style="float:none"><span>Thêm vào giỏ</span><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
-                    </div>
-                </div>
-            </td>
-            <td>
-                <div class="product-block">
-                    <div class="tag-sale">-5%</div>
-                    <div class="product-img">
-                        <a href="#" title="Bắp cải RA">
-                            <img class="first-image  has-img" alt="Dưa chuột" src="//product.hstatic.net/1000191320/product/hat-giong-dua-chuot-leo-600x535_large.jpg" />
-                        </a>
-                    </div>
-                    <div>
-                        <!-- sử dụng pull-left -->
-                        <h3><a href="#">Dưa chuột</a></h3>
-                        <div class="pro-price">
-                            <p>9,000₫ <del>10,000₫ </del> </p>
-                        </div>
-                    </div>
-                    <div class="container-fluid add-cart" style="margin:5px 20px">
-                        <input type="number" class="form-control text-center col-10" value="1">
-                    </div>
-                    <div>
-                        <button class="btn" style="float:none"><span>Thêm vào giỏ</span><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
-                    </div>
-                </div>
-
-            </td>
-        </tr>
-
-    </table>
-    <footer>
-        <table>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> 
+       <table>
             <tr>
-                <td>
-                    <img src="../images/logo2.png" height="200" alt="Fresh Food">
-                </td>
-                <td>
-                    <p><b>Địa chỉ:</b> 669 QL1A, Thủ Đức, TP Hồ Chí Minh</p>
-                    <p><b>Email:</b> freshfood@gmail.com</p>
-                    <p><b>Số điện thoại:</b>0123456789</p>
-                </td>
-                <td>
-                    <h4>Trợ giúp</h4>
-                    <p><a href="#">Chính sách đổi, trả hàng</a> <p />
-                    <p><a href="#">Hướng dẫn thanh toán</a> <p />
-                    <p><a href="#">Chính sách giao hàng</a> <p />
-                    <a href="#"><i class="fa fa-facebook icon"></i></a>
-                    <a href="#"><i class="fa fa-instagram icon"></i></a>
-                    <a href="#"><i class="fa fa-youtube icon"></i></a>
-                </td>
-                <td width="30%">
-                    <img height="110" width="300" src="../images/bocongthuong1.png" />
-                    <img height="110" width="300" src="../images/bocongthuong.png" />
+                <td align="center">
+                    <table>
+                        <tr><td colspan="4"><h2>Sản phẩm bán chạy</h2></td></tr>
+                        <tr>
+                            <td>
+                                <div class="main-product">
+                                    <div class="product-block1">
+                                        <div class="product-img ">
+                                            <a href="#" title="Bắp cải RA">
+                                                <img class="first-image  has-img" alt=" Bắp cải RA " src="//product.hstatic.net/1000191320/product/b_p_c_i_tr_ng_trf_large.jpg" />
+                                            </a>
+                                        </div>
+                                        <div class="content-product">
+                                            <!-- sử dụng pull-left -->
+                                            <h5 class="content-product-h3"><a href="#">Bắp cải RA </a></h5>
+                                            <div class="content-product-deltals">
+                                                <div class="pro-price">
+                                                    <span class="money">35,000₫</span>
+                                                </div>
+                                            </div>
+
+                                            <div>
+                                                <button type="button" class="btn btn-cart" style="float:none"><span>Thêm vào giỏ</span><i class="fa fa-shopping-cart"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="main-product">
+                                    <div class="product-block1">
+                                        <div class="product-img ">
+                                            <a href="#" title="Bắp cải RA">
+                                                <img class="first-image  has-img" alt=" Cà rốt " src="//product.hstatic.net/1000191320/product/c__r_t_nh_t_large.jpg" />
+                                            </a>
+                                        </div>
+                                        <div class="content-product">
+                                            <!-- sử dụng pull-left -->
+                                            <h5 class="content-product-h3"><a href="#">Cà Rốt</a></h5>
+                                            <div class="pro-price">
+                                                <p>12,000₫</p>
+                                            </div>
+                                        </div>
+
+                                        <div>
+                                            <button class="btn btn-cart" style="float:none"><span>Thêm vào giỏ</span><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="main-product">
+                                    <div class="product-block1">
+                                        <div class="product-img ">
+                                            <a href="#" title="Bắp cải RA">
+                                                <img class="first-image  has-img" alt="Khoai lang" src="//product.hstatic.net/1000191320/product/khoang-lang-mat-da-lat_large.jpg" />
+                                            </a>
+                                        </div>
+                                        <div class="content-product">
+
+                                            <!-- sử dụng pull-left -->
+                                            <h5 class="content-product-h3"><a href="#">Khoai lang</a></h5>
+                                            <div class="pro-price">
+                                                <p>35,000₫</p>
+                                            </div>
+                                        </div>
+
+                                        <div>
+                                            <button class="btn btn-cart" style="float:none"><span>Thêm vào giỏ</span><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="main-product">
+                                    <div class="product-block1">
+                                        <div class="product-img">
+                                            <a href="#" title="Bắp cải RA">
+                                                <img class="first-image  has-img" alt=" Ngọn đậu Hà Lan" src="//product.hstatic.net/1000191320/product/9570164244510_large.jpg" />
+                                            </a>
+                                        </div>
+                                        <div class="content-product">
+                                            <!-- sử dụng pull-left -->
+                                            <h5 class="content-product-h3"><a href="#">Ngọn đậu Hà Lan</a></h5>
+                                            <div class="pro-price">
+                                                <p>35,000₫</p>
+                                            </div>
+                                        </div>
+
+                                        <div>
+                                            <button class="btn btn-cart" style="float:none"><span>Thêm vào giỏ</span><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr> <td colspan="4"><h2>Sản phẩm giảm giá</h2></td></tr>
+                        <tr>
+
+                            <td>
+                                <div class="main-product">
+                                    <div class="product-block">
+                                        <div class="tag-sale">-20%</div>
+                                        <div class="product-img ">
+                                            <a href="#" title="Bắp cải RA">
+                                                <img class="first-image  has-img" alt="Củ cải trắng" src="//product.hstatic.net/1000191320/product/cu-cai_large.jpg" />
+                                            </a>
+                                        </div>
+                                        <div class="content-product">
+                                            <!-- sử dụng pull-left -->
+                                            <h5 class="content-product-h3"><a href="#">Củ cải trắng</a></h5>
+                                            <div class="pro-price">
+                                                <p>28,000₫ <del>35,000₫ </del> </p>
+                                            </div>
+                                        </div>
+
+                                        <div>
+                                            <button class="btn btn-cart" style="float:none"><span>Thêm vào giỏ</span><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="main-product">
+                                    <div class="product-block ">
+                                        <div class="tag-sale">-10%</div>
+                                        <div class="product-img ">
+                                            <a href="#">
+                                                <img class="first-image  has-img" alt="Ngọn su su" src="//product.hstatic.net/1000191320/product/ngon-su-su_large.jpg" />
+                                            </a>
+                                        </div>
+                                        <div class="content-product">
+                                            <!-- sử dụng pull-left -->
+                                            <h5 class="content-product-h3"><a href="#">Ngọn su su</a></h5>
+                                            <div class="pro-price">
+                                                <p>27,000₫ <del>30,000₫ </del> </p>
+                                            </div>
+                                        </div>
+
+                                        <div>
+                                            <button class="btn btn-cart" style="float:none"><span>Thêm vào giỏ</span><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="main-product">
+                                    <div class="product-block">
+                                        <div class="tag-sale">-5%</div>
+                                        <div class="product-img ">
+                                            <a href="#" title="Bắp cải RA">
+                                                <img class="first-image  has-img" alt="Bí đỏ" src="//product.hstatic.net/1000191320/product/cach-nhan-biet-bi-do-trung-quoc-voi-bi-do-viet-nam-3_760x582_large.jpg" />
+                                            </a>
+                                        </div>
+                                        <div class="content-product">
+                                            <!-- sử dụng pull-left -->
+                                            <h5 class="content-product-h3"><a href="#">Bí đỏ</a></h5>
+                                            <div class="pro-price">
+                                                <p>28,500₫ <del>30,000₫ </del> </p>
+                                            </div>
+                                        </div>
+
+                                        <div>
+                                            <button class="btn btn-cart" style="float:none"><span>Thêm vào giỏ</span><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="main-product">
+                                    <div class="product-block">
+                                        <div class="tag-sale">-5%</div>
+                                        <div class="product-img">
+                                            <a href="#" title="Bắp cải RA">
+                                                <img class="first-image  has-img" alt="Dưa chuột" src="//product.hstatic.net/1000191320/product/hat-giong-dua-chuot-leo-600x535_large.jpg" />
+                                            </a>
+                                        </div>
+                                        <div class="content-product">
+                                            <!-- sử dụng pull-left -->
+                                            <h5 class="content-product-h3"><a href="#">Dưa chuột</a></h5>
+                                            <div class="pro-price">
+                                                <p>9,000₫ <del class="pro-price">10,000₫ </del> </p>
+                                            </div>
+                                        </div>
+
+                                        <div>
+                                            <button class="btn btn-cart" style="float:none"><span>Thêm vào giỏ</span><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+
+                    </table>
                 </td>
             </tr>
         </table>
-    </footer>
+
+
+       <footer>
+           <table>
+               <tr>
+                   <td>
+                       <img src="https://lh3.googleusercontent.com/pw/ACtC-3f8RpTuGVo-uTjLiy0OQjfZpohRO64du39jL4hvRPRMcKZX0TY8_YgXnzwL_SIougxBi8SoL1FlN3T3wtq0d3DceCF-z4lviXJoyBg3MkMVGlFBQBWverMh606PJdqLhjUcpA-khuediCc5mWfNk4DF=w761-h867-no?authuser=0&fbclid=IwAR29GpHVdKFD-Ht3oiC6LDi9Kxonvd__iQbfzX5IJMXo4_98X3Dzif-oqJw" height="200" alt="Fresh Food">
+                   </td>
+                   <td>
+                       <p><b>Địa chỉ:</b> 669 QL1A, Thủ Đức, TP Hồ Chí Minh</p>
+                       <p><b>Email:</b> freshfood@gmail.com</p>
+                       <p><b>Số điện thoại:</b>0123456789</p>
+                   </td>
+                   <td>
+                       <h4>Trợ giúp</h4>
+                       <p><a href="Chinhsachdoitra.html">Chính sách đổi, trả hàng</a> <p />
+                       <p><a href="Huongdanthanhtoan.html">Hướng dẫn thanh toán</a> <p />
+                       <p><a href="Chinhsachgiaohang.html">Chính sách giao hàng</a> <p />
+                       <a href="#"><i class="fa fa-facebook icon"></i></a>
+                       <a href="#"><i class="fa fa-instagram icon"></i></a>
+                       <a href="#"><i class="fa fa-youtube icon"></i></a>
+                   </td>
+                   <td width="30%">
+                       <img height="110" width="300" src="https://lh3.googleusercontent.com/pw/ACtC-3ePRuZXzjLv_OWmy_S868RmodyASztyYnZ811PZP1OVzo_ACOAVyEEGylhmxI29Q73-BS13xNcjRcfWDc_ZkADmRk9LoL_FGa7xSlvX6qlA29d0csBZ8ZiRp9DDi8wCu5TWhqAMPasccgluvYqTVnlF=w413-h152-no?authuser=0&fbclid=IwAR0ViQtRSO2UKgiUYRx-vnc7GeVG_nP2erJmK94dzDfkmWNlRsIpkdfzYa4" />
+                       <img height="110" width="300" src="https://lh3.googleusercontent.com/pw/ACtC-3fMHgh7iEL3nS6YDgK8Wugods1E0QTWwz7s9VXkIlLuF3QjkyQrdwJkViAKJxAx8uV0e4_DsoopSPuRHQcO3orQ32ZN--33b_c8bzSLv1SpIOTRpAc-x5PHssuR5XktKw3heG5qpgs0r46Vjjxto5EN=w444-h152-no?authuser=0&fbclid=IwAR29GpHVdKFD-Ht3oiC6LDi9Kxonvd__iQbfzX5IJMXo4_98X3Dzif-oqJw" />
+                   </td>
+               </tr>
+           </table>
+       </footer>
+        <script src="Cart.js"></script>
 </body>
 </html>

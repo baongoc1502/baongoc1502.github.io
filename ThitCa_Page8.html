@@ -2,8 +2,9 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title></title>
+    <title>Thịt cá - FreshFood</title>
     <link rel="stylesheet" href="CSS/Product.css" type="text/css" />
+    <link rel="stylesheet" href="CSS/Giohang.css" type="text/css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular.min.js"></script>
@@ -19,9 +20,10 @@
             }, function myError(respone) {
                 $scope.dataError = respone.statusText
             }
-            )
+            ); $scope.sortType = ''
         })
-    </script>
+
+/**/</script>
 
 
 </head>
@@ -29,33 +31,68 @@
     <header>
         <nav class="navbar navbar-expand-md">
             <div>
-                <a href="#" style="width: 100px">
-                    <img src="../images/logo1.png" height="100" alt="Fresh Food">
+                <a href="index.html" style="width: 100px">
+                    <img src="https://lh3.googleusercontent.com/pw/ACtC-3ce4BjdIzHQ0pPgA0INvEaqaMVQr81s86ZVw2AzGEG6jvPPPNrM1CXfED1J0NsFYIRGYYy0fdXYHMzAM0l91Gv8qwPtFX4JN4PnW0qbNmtmZysEirS9cyxuW-h2CnWVJS_78dEaUfLm0McLXto8NGVp=w892-h1018-no?authuser=0&fbclid=IwAR1VyTqdCO7_Xai1qcXSC1VMb1Ziez8jGzAs8FoykofNjSC1hL2DBGUI6ZE" height="100" alt="Fresh Food">
+
                 </a>
                 <logo>FRESH FOOD</logo>
             </div>
             <div class="search-box d-flex align-items-center  justify-content-center">
-                <input type="text" class="input-field w-75 h-75" placeholder="Search...">
-                <a href="#"><i class="fa fa-search" style="color:#2A6049"></i></a>
+                <a href="Search.html">
+                    <input class="input-field w-80 h-80" placeholder="Search...">
+                </a>
+                <i class="fa fa-search" style="color:#2A6049"></i>
             </div>
             <div>
-                <Button class="btnhead" href="#"><i class="fa fa-user icon "></i> Login</Button>
+                <Button style="float:right" class="btn1" onclick="login()"><i class="fa fa-user icon "></i> Login</Button>
+                <script>
+                    function login() {
+                        location.assign("../DangNhap.html");
+                    }
+                </script>
             </div>
 
             <div>
-                <Button class="btnhead" href="#"><i class="fa fa-shopping-cart icon"></i> Cart</Button>
+
+                <Button id="cart" class="btn"><i class="fa fa-shopping-cart icon"></i> Cart</Button>
             </div>
+            <div id="myCart" class="tableshow">
+                <div class="tableshow-content">
+                    <div class="tableshow-header">
+                        <h5 class="tableshow-title">Giỏ Hàng</h5>
+                        <span class="close">&times;</span>
+                    </div>
+                    <div class="tableshow-body">
+                        <div class="cart-row">
+                            <span class="cart-item cart-header cart-column">Sản Phẩm</span>
+                            <span class="cart-price cart-header cart-column">Giá</span>
+                            <span class="cart-quantity cart-header cart-column">Số Lượng</span>
+                        </div>
+                        <div class="cart-items">
+
+                        </div>
+                        <div class="cart-total">
+                            <strong class="cart-total-title">Tổng Cộng:</strong>
+                            <span class="cart-total-price">0VNĐ</span>
+                        </div>
+                    </div>
+                    <div class="tableshow-footer">
+                        <button type="button" class="btn btn-secondary close-footer">Đóng</button>
+                        <button type="button" class="btn btn-primary order">Thanh Toán</button>
+                    </div>
+                </div>
+            </div>
+            <script src="Cart.js"></script>
 
         </nav>
         <div id="Container">
             <ul>
                 <li><a href="index.html">Trang chủ</a></li>
-                <li><a href="#">Ưu đãi</a></li>
+                <li><a href="Uudai.html">Ưu đãi</a></li>
                 <li>
-                    <a href="#" style="border:solid 2px black; border-radius:10px">Sản phẩm</a>
+                    <a style="border:solid 2px black; border-radius:10px">Sản phẩm</a>
                     <ul id="ul">
-                        <li><a href="RauCuQua.html">Rau củ quả</a></li>
-                        <li><a href='#' style="border:solid 2px black; border-radius:10px">Thịt cá</a></li>
+                        <li><a href='ThitCa.html'>Thịt cá</a></li>
                         <li><a href='HaiSan.html'>Hải sản</a></li>
                         <li><a href='TraiCay.html'>Trái cây</a></li>
                         <li><a href='BoTrungSua.html'>Bơ trứng sữa</a></li>
@@ -67,7 +104,7 @@
 
                 </li>
                 <li>
-                    <a href="#">Về chúng tôi</a>
+                    <a href="Aboutme.html">Về chúng tôi</a>
                 </li>
                 <li><a href="TinTuc.html">Tin tức</a></li>
             </ul>
@@ -75,31 +112,27 @@
     </header>
 
 
-
     <img src="images/meat.jpg" style="width:100%; height:350px" />
-    <table style="width:100%">
+    <table style="width:100%; margin-top:10px">
         <tr>
-            <td><h4>THỊT CÁ</h4></td>
-            <td align="right">
-
-                <label for="sortby">Sắp xếp</label> &nbsp;&nbsp;&nbsp;
-                <select>
-                    <option value="title-ascending">Theo bảng chữ cái A-Z</option>
-                    <option value="title-descending">Theo bảng chữ cái Z-A</option>
-                    <option value="price-ascending">Giá từ thấp đến cao</option>
-                    <option value="price-descending">Giá từ cao đến thấp</option>
-                </select>
-
-            </td>
+            <td align="center"><h2>THỊT CÁ</h2></td>
         </tr>
         <tr>
-            <td colspan="2"> <hr /></td>
+            <td align="right">
+                <label for="sortby">Sắp xếp</label> &nbsp;&nbsp;&nbsp;
+                <select ng-model="sortType">
+                    <option value="TenSP">Theo bảng chữ cái A-Z</option>
+                    <option value="-TenSP">Theo bảng chữ cái Z-A</option>
+                    <option value="GiaSP">Giá từ thấp đến cao</option>
+                    <option value="-GiaSP">Giá từ cao đến thấp</option>
+                </select>
+            </td>
         </tr>
     </table>
     <table>
         <tr>
             <td>
-                <div class="product-block" ng-repeat="sp in products">
+                <div class="product-block" ng-repeat="sp in products|orderBy:sortType">
                     <div class="product-img ">
                         <a href="#" title="{{sp.TenSP}}">
                             <img class="first-image" alt=" {{sp.TenSP}} " src="{{sp.Image}}" />
@@ -108,14 +141,10 @@
                     <div>
                         <h6><a class="pro-name" href="#" title="{{sp.TenSP}}">{{sp.TenSP}} </a></h6>
                         <div>
-                            <p class="pro-price">{{sp.GiaSP}}</p>
+                            <p class="pro-price">{{sp.GiaSP}}₫</p>
                         </div>
                     </div>
-                    <div class="add-cart">
-
-                        <input style="margin:5px auto; text-align:center" type="number" class="form-control text-center col-10" value="1">
-
-                    </div>
+                  
                     <div class="addcart">
                         <button class="button"><span>Thêm vào giỏ</span><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
                     </div>
@@ -137,7 +166,7 @@
         <table>
             <tr>
                 <td>
-                    <img src="../images/logo2.png" height="200" alt="Fresh Food">
+                    <img src="https://lh3.googleusercontent.com/pw/ACtC-3f8RpTuGVo-uTjLiy0OQjfZpohRO64du39jL4hvRPRMcKZX0TY8_YgXnzwL_SIougxBi8SoL1FlN3T3wtq0d3DceCF-z4lviXJoyBg3MkMVGlFBQBWverMh606PJdqLhjUcpA-khuediCc5mWfNk4DF=w761-h867-no?authuser=0&fbclid=IwAR29GpHVdKFD-Ht3oiC6LDi9Kxonvd__iQbfzX5IJMXo4_98X3Dzif-oqJw" height="200" alt="Fresh Food">
                 </td>
                 <td>
                     <p><b>Địa chỉ:</b> 669 QL1A, Thủ Đức, TP Hồ Chí Minh</p>
@@ -146,16 +175,16 @@
                 </td>
                 <td>
                     <h4>Trợ giúp</h4>
-                    <p><a href="#">Chính sách đổi, trả hàng</a> <p />
-                    <p><a href="#">Hướng dẫn thanh toán</a> <p />
-                    <p><a href="#">Chính sách giao hàng</a> <p />
+                    <p><a href="Chinhsachdoitra.html">Chính sách đổi, trả hàng</a> <p />
+                    <p><a href="Huongdanthanhtoan.html">Hướng dẫn thanh toán</a> <p />
+                    <p><a href="Chinhsachgiaohang.html">Chính sách giao hàng</a> <p />
                     <a href="#"><i class="fa fa-facebook icon"></i></a>
                     <a href="#"><i class="fa fa-instagram icon"></i></a>
                     <a href="#"><i class="fa fa-youtube icon"></i></a>
                 </td>
                 <td width="30%">
-                    <img height="110" width="300" src="../images/bocongthuong1.png" />
-                    <img height="110" width="300" src="../images/bocongthuong.png" />
+                    <img height="110" width="300" src="https://lh3.googleusercontent.com/pw/ACtC-3ePRuZXzjLv_OWmy_S868RmodyASztyYnZ811PZP1OVzo_ACOAVyEEGylhmxI29Q73-BS13xNcjRcfWDc_ZkADmRk9LoL_FGa7xSlvX6qlA29d0csBZ8ZiRp9DDi8wCu5TWhqAMPasccgluvYqTVnlF=w413-h152-no?authuser=0&fbclid=IwAR0ViQtRSO2UKgiUYRx-vnc7GeVG_nP2erJmK94dzDfkmWNlRsIpkdfzYa4" />
+                    <img height="110" width="300" src="https://lh3.googleusercontent.com/pw/ACtC-3fMHgh7iEL3nS6YDgK8Wugods1E0QTWwz7s9VXkIlLuF3QjkyQrdwJkViAKJxAx8uV0e4_DsoopSPuRHQcO3orQ32ZN--33b_c8bzSLv1SpIOTRpAc-x5PHssuR5XktKw3heG5qpgs0r46Vjjxto5EN=w444-h152-no?authuser=0&fbclid=IwAR29GpHVdKFD-Ht3oiC6LDi9Kxonvd__iQbfzX5IJMXo4_98X3Dzif-oqJw" />
                 </td>
             </tr>
         </table>
